@@ -1,0 +1,34 @@
+// *********************** Global Layouts ******************
+
+// creating a container for my homepage
+
+.container {
+    display: grid;
+    // grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+                         "header header header";
+}
+
+// a container for my header section of my homepage
+
+.header-container {
+    grid-area: header;
+}
+
+.topBar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+// .lang-cur {
+//     grid-area: aside;
+// }
+
+// .shipping {
+//     grid-area: center;
+// }
+
+// .topBar-icons {
+//     grid-area: aside;
+// }
