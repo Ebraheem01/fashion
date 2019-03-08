@@ -9,3 +9,26 @@ body {
     text-transform: uppercase;
     padding-top: .9rem;
 }
+
+nav {
+    ul {
+        height: 93px;
+        margin-left: 10vw;
+    }
+
+    li {
+        display: inline;
+        padding: 2vw;      
+    }
+
+    a {
+        font-family: Dosis;
+        font-size: 15px;
+        letter-spacing: 0.8px;
+        text-align: left;
+        color: #ffffff;
+        text-decoration-line: none;
+        text-transform: uppercase;      
+    }
+
+}

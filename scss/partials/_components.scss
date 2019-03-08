@@ -1,6 +1,8 @@
 @font-face {
     font-family: "Source Sans Pro";
     src: url(../fonts/SourceSansPro-Light.ttf);
+    font-family: "Dosis";
+    src: url(../fonts/Dosis-Light.ttf)
 }
 
 .icons1 {
@@ -15,4 +17,12 @@
   width: 111px;
   height: 15px;
   font-size: 15px;
+}
+
+.icon {
+  width: 22px;
+  height: 23px;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #ffffff;
 }
