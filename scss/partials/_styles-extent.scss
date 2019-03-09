@@ -56,6 +56,10 @@
   color: #999999;
 }
 
+// end //
+
+// styling nav bar //
+
 .home {
   margin-left: 3vw;
 }
@@ -75,6 +79,10 @@
   color: #fffefe;
 }
 
+// end //
+
+// styling the opening heading //
+
 .heading {
   width: 597px;
   height: 38px;
@@ -87,4 +95,21 @@
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+  margin-left: 27vw;
+  margin-top: 7vw;
+}
+
+.intro {
+  width: 924px;
+  height: 39px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e6e6e6;
+  margin-left: 19vw;
 }
