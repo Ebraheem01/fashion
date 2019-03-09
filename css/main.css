@@ -116,6 +116,57 @@
   color: #e6e6e6;
   margin-left: 19vw; }
 
+.btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #a88d7b;
+  margin-left: 44vw;
+  margin-top: 5vw;
+  border: none; }
+
+.btnText {
+  width: 87px;
+  height: 10px;
+  font-family: "Source Sans Pro";
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.2;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 2vw;
+  margin-top: -1vw;
+  text-transform: uppercase; }
+
+.downArrow {
+  width: 29px;
+  height: 16px;
+  font-family: Linearicons-Free;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 18vw;
+  margin-left: -5.8vw;
+  animation-name: arrow;
+  animation-iteration-count: infinite;
+  animation-duration: 1s; }
+
+@keyframes arrow {
+  from {
+    margin-top: 18vw;
+    transition: 1s; }
+  to {
+    margin-top: 19vw;
+    transition: 1s; } }
 body {
   margin: 0; }
 
