@@ -167,6 +167,129 @@
   to {
     margin-top: 19vw;
     transition: 1s; } }
+.featuredProjects {
+  width: 1900px;
+  height: 704px; }
+
+.featured {
+  width: 313px;
+  height: 24px;
+  font-family: "Source Sans Pro";
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin-left: 39vw;
+  position: absolute; }
+
+.bottomBorder {
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
+  margin-left: 48vw;
+  margin-top: 6vw;
+  position: absolute; }
+
+.info1 {
+  position: absolute;
+  margin-top: 34vw;
+  margin-left: 10vw;
+  width: 158px;
+  height: 18px;
+  font-family: "Source Sans Pro";
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333; }
+
+.price1 {
+  position: absolute;
+  margin-top: 36vw;
+  margin-left: 13vw;
+  width: 52px;
+  height: 11px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
+
+.info2 {
+  position: absolute;
+  margin-top: 34vw;
+  margin-left: 43vw;
+  width: 151px;
+  height: 18px;
+  font-family: "Source Sans Pro";
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333; }
+
+.price2 {
+  position: absolute;
+  margin-top: 36vw;
+  margin-left: 46vw;
+  width: 52px;
+  height: 11px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
+
+.info3 {
+  position: absolute;
+  margin-top: 34vw;
+  margin-left: 75vw;
+  width: 172px;
+  height: 18px;
+  font-family: "Source Sans Pro";
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333; }
+
+.price3 {
+  position: absolute;
+  margin-top: 36vw;
+  margin-left: 79vw;
+  width: 52px;
+  height: 11px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
+
 body {
   margin: 0; }
 
@@ -193,7 +316,7 @@ nav a {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "header header header"; }
+  grid-template-areas: "header header header" "content1 content1 content1"; }
 
 .header-container {
   grid-area: header; }
@@ -201,5 +324,37 @@ nav a {
 .topBar {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
+
+.main-container {
+  grid-area: content1; }
+
+.featuredProducts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto; }
+
+.image1 {
+  grid-column: 1 / 1;
+  width: 340px;
+  height: 330px;
+  background-color: #666666;
+  margin: 8vw 5vw;
+  position: absolute; }
+
+.image2 {
+  grid-column: 2 / 2;
+  width: 340px;
+  height: 330px;
+  background-color: #666666;
+  margin: 8vw 37vw;
+  position: absolute; }
+
+.image3 {
+  grid-column: 2 / 2;
+  width: 340px;
+  height: 330px;
+  background-color: #666666;
+  margin: 8vw 68vw;
+  position: absolute; }
 
 /*# sourceMappingURL=main.css.map */

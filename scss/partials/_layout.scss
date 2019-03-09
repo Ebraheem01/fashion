@@ -4,10 +4,10 @@
 
 .container {
     display: grid;
-    // grid-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
-                         "header header header";
+                         "header header header"
+                         "content1 content1 content1";
 }
 
 // a container for my header section of my homepage
@@ -21,14 +21,39 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-// .lang-cur {
-//     grid-area: aside;
-// }
+.main-container {
+    grid-area: content1;
+}
 
-// .shipping {
-//     grid-area: center;
-// }
+.featuredProducts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
 
-// .topBar-icons {
-//     grid-area: aside;
-// }
+.image1 {
+    grid-column: 1 / 1;
+    width: 340px;
+    height: 330px;
+    background-color: #666666;
+    margin: 8vw 5vw;
+    position: absolute;
+}
+
+.image2 {
+    grid-column: 2 / 2;
+    width: 340px;
+    height: 330px;
+    background-color: #666666;
+    margin: 8vw 37vw;
+    position: absolute;
+}
+
+.image3 {
+    grid-column: 2 / 2;
+    width: 340px;
+    height: 330px;
+    background-color: #666666;
+    margin: 8vw 68vw;
+    position: absolute;
+}
