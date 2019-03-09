@@ -195,8 +195,7 @@
   position: absolute; }
 
 .info1 {
-  position: absolute;
-  margin-top: 34vw;
+  margin-top: 15vw;
   margin-left: 10vw;
   width: 158px;
   height: 18px;
@@ -211,9 +210,8 @@
   color: #333333; }
 
 .price1 {
-  position: absolute;
-  margin-top: 36vw;
-  margin-left: 13vw;
+  margin-top: -1vw;
+  margin-left: 13.5vw;
   width: 52px;
   height: 11px;
   font-family: "Source Sans Pro";
@@ -227,9 +225,8 @@
   color: #999999; }
 
 .info2 {
-  position: absolute;
-  margin-top: 34vw;
-  margin-left: 43vw;
+  margin-top: 15vw;
+  margin-left: 10vw;
   width: 151px;
   height: 18px;
   font-family: "Source Sans Pro";
@@ -243,9 +240,8 @@
   color: #333333; }
 
 .price2 {
-  position: absolute;
-  margin-top: 36vw;
-  margin-left: 46vw;
+  margin-top: -1vw;
+  margin-left: 13.5vw;
   width: 52px;
   height: 11px;
   font-family: "Source Sans Pro";
@@ -259,9 +255,8 @@
   color: #999999; }
 
 .info3 {
-  position: absolute;
-  margin-top: 34vw;
-  margin-left: 75vw;
+  margin-top: 15vw;
+  margin-left: 10vw;
   width: 172px;
   height: 18px;
   font-family: "Source Sans Pro";
@@ -275,9 +270,8 @@
   color: #333333; }
 
 .price3 {
-  position: absolute;
-  margin-top: 36vw;
-  margin-left: 79vw;
+  margin-top: -1vw;
+  margin-left: 13.5vw;
   width: 52px;
   height: 11px;
   font-family: "Source Sans Pro";
@@ -289,6 +283,53 @@
   letter-spacing: normal;
   text-align: center;
   color: #999999; }
+
+.newCollection {
+  margin-left: 39vw;
+  position: absolute;
+  width: 265px;
+  height: 24px;
+  font-family: "Source Sans Pro";
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333; }
+
+.men {
+  grid-row: 2 / 2;
+  width: 49px;
+  height: 16px;
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: 2.5px;
+  text-align: center;
+  color: #a88d7b;
+  margin-top: 0vw;
+  margin-left: 27vw; }
+
+.women {
+  grid-row: 2 / 2;
+  width: 91px;
+  height: 16px;
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: 2.5px;
+  text-align: center;
+  color: #a88d7b;
+  margin-top: 0vw;
+  margin-left: 13vw; }
 
 body {
   margin: 0; }
@@ -329,12 +370,14 @@ nav a {
   grid-area: content1; }
 
 .featuredProducts {
+  background-color: #f5f5f5;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto; }
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "image1 image2 image3" "info1 info2 info3" "price1 price2 price3"; }
 
 .image1 {
-  grid-column: 1 / 1;
+  grid-area: image1;
   width: 340px;
   height: 330px;
   background-color: #666666;
@@ -342,7 +385,7 @@ nav a {
   position: absolute; }
 
 .image2 {
-  grid-column: 2 / 2;
+  grid-area: image2;
   width: 340px;
   height: 330px;
   background-color: #666666;
@@ -350,11 +393,54 @@ nav a {
   position: absolute; }
 
 .image3 {
-  grid-column: 2 / 2;
+  grid-area: image3;
   width: 340px;
   height: 330px;
   background-color: #666666;
   margin: 8vw 68vw;
   position: absolute; }
+
+.info1 {
+  grid-area: info1; }
+
+.info2 {
+  grid-area: info2; }
+
+.info3 {
+  grid-area: info3; }
+
+.price1 {
+  grid-area: price1; }
+
+.price2 {
+  grid-area: price2; }
+
+.price3 {
+  grid-area: price3; }
+
+.new {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr); }
+
+.image4 {
+  grid-column: 1 / 1;
+  width: 505px;
+  height: 300px;
+  background-color: #666666;
+  margin: 7vw;
+  margin-top: 8vw;
+  margin-left: 12vw;
+  margin-bottom: 2vw; }
+
+.image5 {
+  grid-column: 2 / 2;
+  width: 505px;
+  height: 300px;
+  background-color: #666666;
+  margin: 7vw;
+  margin-top: 8vw;
+  margin-left: -4vw;
+  margin-bottom: 2vw; }
 
 /*# sourceMappingURL=main.css.map */

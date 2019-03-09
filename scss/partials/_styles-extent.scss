@@ -206,8 +206,7 @@
 }
 
 .info1 {
-  position: absolute;
-  margin-top: 34vw;
+  margin-top: 15vw;
   margin-left: 10vw;
   width: 158px;
   height: 18px;
@@ -222,9 +221,8 @@
   color: #333333;}
 
 .price1 {
-  position: absolute;
-  margin-top: 36vw;
-  margin-left: 13vw;
+  margin-top: -1vw;
+  margin-left: 13.5vw;
   width: 52px;
   height: 11px;
   font-family: "Source Sans Pro";
@@ -240,9 +238,8 @@
 
 
 .info2 {
-  position: absolute;
-  margin-top: 34vw;
-  margin-left: 43vw;
+  margin-top: 15vw;
+  margin-left: 10vw;
   width: 151px;
   height: 18px;
   font-family: "Source Sans Pro";
@@ -257,9 +254,8 @@
 }
 
 .price2 {
-  position: absolute;
-  margin-top: 36vw;
-  margin-left: 46vw;
+  margin-top: -1vw;
+  margin-left: 13.5vw;
   width: 52px;
   height: 11px;
   font-family: "Source Sans Pro";
@@ -274,9 +270,8 @@
 }
 
 .info3 {
-  position: absolute;
-  margin-top: 34vw;
-  margin-left: 75vw;
+  margin-top: 15vw;
+  margin-left: 10vw;
   width: 172px;
   height: 18px;
   font-family: "Source Sans Pro";
@@ -291,9 +286,8 @@
 }
 
 .price3 {
-  position: absolute;
-  margin-top: 36vw;
-  margin-left: 79vw;
+  margin-top: -1vw;
+  margin-left: 13.5vw;
   width: 52px;
   height: 11px;
   font-family: "Source Sans Pro";
@@ -305,4 +299,54 @@
   letter-spacing: normal;
   text-align: center;
   color: #999999;
+}
+
+.newCollection {
+  margin-left: 39vw;
+  position: absolute;
+  width: 265px;
+  height: 24px;
+  font-family: "Source Sans Pro";
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+
+.men {
+  grid-row: 2 / 2;
+  width: 49px;
+  height: 16px;
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: 2.5px;
+  text-align: center;
+  color: #a88d7b;
+  margin-top: 0vw;
+  margin-left: 27vw;
+}
+
+.women {
+  grid-row: 2 / 2;
+  width: 91px;
+  height: 16px;
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: 2.5px;
+  text-align: center;
+  color: #a88d7b;
+  margin-top: 0vw;
+  margin-left: 13vw;
 }
