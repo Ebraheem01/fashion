@@ -33,3 +33,35 @@
   text-align: left;
   color: #ffffff;
 }
+
+.downArrow {
+  width: 29px;
+  height: 16px;
+  font-family: Linearicons-Free;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 18vw;
+  margin-left: -6.9vw;
+  animation-name: arrow;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+@keyframes arrow {
+  from {
+    margin-top: 18vw;
+    transition: 1s;
+  }
+
+  to {
+    margin-top: 19vw;
+    transition: 1s;
+  }
+}

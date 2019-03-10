@@ -23,6 +23,32 @@
   text-align: left;
   color: #ffffff; }
 
+.downArrow {
+  width: 29px;
+  height: 16px;
+  font-family: Linearicons-Free;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 18vw;
+  margin-left: -6.9vw;
+  animation-name: arrow;
+  animation-iteration-count: infinite;
+  animation-duration: 1s; }
+
+@keyframes arrow {
+  from {
+    margin-top: 18vw;
+    transition: 1s; }
+  to {
+    margin-top: 19vw;
+    transition: 1s; } }
 .header-container {
   width: 100%;
   height: 100vh;
@@ -141,32 +167,6 @@
   margin-top: -1vw;
   text-transform: uppercase; }
 
-.downArrow {
-  width: 29px;
-  height: 16px;
-  font-family: Linearicons-Free;
-  font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-  position: absolute;
-  margin-top: 18vw;
-  margin-left: -5.8vw;
-  animation-name: arrow;
-  animation-iteration-count: infinite;
-  animation-duration: 1s; }
-
-@keyframes arrow {
-  from {
-    margin-top: 18vw;
-    transition: 1s; }
-  to {
-    margin-top: 19vw;
-    transition: 1s; } }
 .featuredProjects {
   width: 1900px;
   height: 704px; }
@@ -330,6 +330,64 @@
   color: #a88d7b;
   margin-top: 0vw;
   margin-left: 13vw; }
+
+.box1 {
+  width: 100%;
+  height: 400px;
+  opacity: 0.9;
+  background-color: #666666; }
+
+.info4 {
+  margin-top: 2vw;
+  width: 530px;
+  height: 37px;
+  font-family: Dosis;
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 10vw;
+  padding-left: 15vw; }
+
+.para2 {
+  width: 656px;
+  height: 38px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 10vw; }
+
+.btn2 {
+  width: 150px;
+  height: 40px;
+  background-color: #a88d7b;
+  border: none;
+  margin-left: 28vw;
+  margin-top: 4vw; }
+
+.btnText2 {
+  width: 73px;
+  height: 10px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0vw;
+  margin-left: 2vw; }
 
 body {
   margin: 0; }
