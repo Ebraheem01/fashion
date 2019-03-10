@@ -113,3 +113,9 @@
     margin-left: -4vw;
     margin-bottom: 2vw;
 }
+
+.box2 {
+    display: grid;
+    grid-template-areas: "image content";
+    grid-gap: 1vw;
+}

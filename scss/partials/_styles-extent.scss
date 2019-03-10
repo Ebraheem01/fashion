@@ -9,6 +9,7 @@
     background: linear-gradient(#66666688,#66666680), url(../images/woman-streetwear-crouching.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 // the top bar of my header section
@@ -324,6 +325,9 @@
   height: 400px;
   opacity: 0.9;
   background-color: #666666;
+  background-image: linear-gradient(#66666688,#66666680), url(../images/street-wear-male.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .info4 {
@@ -381,4 +385,18 @@
   color: #ffffff;
   margin-top: 0vw;
   margin-left: 2vw;
+}
+
+.box2 {
+  width: 100%;
+  height: 671px;
+  background-color: #f9f9f9;
+}
+
+.image6 {
+  width: 530px;
+  height: 364px;
+  background-color: #666666;
+  margin-left: 10vw;
+  margin-top: 10vw;
 }
