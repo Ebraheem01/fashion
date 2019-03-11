@@ -368,13 +368,13 @@
   width: 530px;
   height: 364px;
   background-color: #666666;
-  margin-left: 10vw;
+  margin-left: 6vw;
   margin-top: 10vw;
 }
 
 .content {
   margin-top: 9vw;
-  margin-right: 10vw;
+  margin-right: 20vw;
   width: 339px;
   height: 23px;
   font-family: "Source Sans Pro";
@@ -432,3 +432,162 @@
 }
 
 // end //
+
+// contact section of homepage 
+
+.contactDetails {
+  h1 {
+    width: 117px;
+    height: 21px;
+    font-family: Dosis;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #e5e5e5;
+  }
+  h2 {
+    width: 232px;
+    height: 18px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+  }
+} 
+
+.links {
+  h1 {
+    width: 46px;
+    height: 12px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e5e5e5;
+  
+  }
+
+  h2 {
+    height: 11px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;  
+  }
+}
+
+.shop {
+  h1 {
+    width: 45px;
+    height: 12px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e5e5e5;
+  }
+
+  h2 {
+    width: 25px;
+    height: 10px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+  }
+}
+
+.instagram {
+  h1 {
+    width: 91px;
+    height: 13px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .insta1 {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+
+  .insta2 {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+
+  .insta3 {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+
+  .insta4 {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+
+  .insta5 {
+    margin-top: .2vw;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+
+  .insta6 {
+    margin-top: .2vw;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+
+  .insta7 {
+    margin-top: .2vw;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+
+  .insta8 {
+    margin-top: .2vw;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+}
