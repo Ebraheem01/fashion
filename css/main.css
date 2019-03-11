@@ -117,7 +117,8 @@
   text-align: center;
   color: #ffffff;
   margin-left: 27vw;
-  margin-top: 7vw; }
+  margin-top: 7vw;
+  text-transform: uppercase; }
 
 .intro {
   width: 924px;
@@ -360,6 +361,9 @@
   width: 530px;
   height: 364px;
   background-color: #666666;
+  background-image: url(../images/street-wear-male-covered-by-smoke.jpeg);
+  background-position: bottom;
+  background-size: cover;
   margin-left: 6vw;
   margin-top: 10vw; }
 
@@ -412,128 +416,165 @@
     text-align: left;
     color: #a88d7b; }
 
-.contactDetails h1 {
-  width: 117px;
-  height: 21px;
-  font-family: Dosis;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1.5px;
-  text-align: left;
-  color: #e5e5e5; }
-.contactDetails h2 {
-  width: 232px;
-  height: 18px;
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
-  text-align: left;
-  color: #999999; }
+.contactDetails {
+  padding-top: 1vw;
+  padding-left: 10vw; }
+  .contactDetails h1 {
+    width: 117px;
+    height: 30px;
+    font-family: Dosis;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #e5e5e5; }
+  .contactDetails h2 {
+    width: 232px;
+    height: 18px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999; }
 
-.links h1 {
-  width: 46px;
-  height: 12px;
-  font-family: "Source Sans Pro";
-  font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: left;
-  color: #e5e5e5; }
-.links h2 {
-  height: 11px;
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
-  text-align: left;
-  color: #999999; }
+.links {
+  margin-top: 3vw;
+  margin-left: -2vw; }
+  .links h1 {
+    width: 46px;
+    height: 30px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e5e5e5; }
+  .links h2 {
+    height: 33px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999; }
 
-.shop h1 {
-  width: 45px;
-  height: 12px;
-  font-family: "Source Sans Pro";
-  font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: left;
-  color: #e5e5e5; }
-.shop h2 {
-  width: 25px;
-  height: 10px;
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
-  text-align: left;
-  color: #999999; }
+.shop {
+  margin-top: 3vw;
+  margin-left: -2vw; }
+  .shop h1 {
+    width: 45px;
+    height: 30px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e5e5e5; }
+  .shop h2 {
+    width: 25px;
+    height: 33px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999; }
 
-.instagram h1 {
-  width: 91px;
-  height: 13px;
-  font-family: "Source Sans Pro";
-  font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff; }
-.instagram .insta1 {
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff; }
-.instagram .insta2 {
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff; }
-.instagram .insta3 {
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff; }
-.instagram .insta4 {
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff; }
-.instagram .insta5 {
-  margin-top: .2vw;
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff; }
-.instagram .insta6 {
-  margin-top: .2vw;
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff; }
-.instagram .insta7 {
-  margin-top: .2vw;
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff; }
-.instagram .insta8 {
-  margin-top: .2vw;
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff; }
+.instagram {
+  margin-top: 3vw;
+  margin-right: 13vw;
+  margin-left: -5vw; }
+  .instagram h1 {
+    width: 91px;
+    height: 30px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff; }
+  .instagram .insta1 {
+    background-image: url(../images/instagram-vince-menzani.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff; }
+  .instagram .insta2 {
+    background-image: url(../images/instagram.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff; }
+  .instagram .insta3 {
+    background-image: url(../images/instagram-Feifei.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff; }
+  .instagram .insta4 {
+    background-image: url(../images/instagram-high-streetwear-fashion.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff; }
+  .instagram .insta5 {
+    background-image: url(../images/instagram--simple-outfits-casual-outfits.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: .2vw;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff; }
+  .instagram .insta6 {
+    background-image: url(../images/--streetwear-clothing-streetwear-fashion.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: .2vw;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff; }
+  .instagram .insta7 {
+    background-image: url(../images/instagram-street.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: .2vw;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff; }
+  .instagram .insta8 {
+    background-image: url(../images/--street-fashion-men-summer-mens-hipster-fashion-summer.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: .2vw;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff; }
 
 body {
   margin: 0; }
@@ -557,6 +598,27 @@ nav a {
   color: #ffffff;
   text-decoration-line: none;
   text-transform: uppercase; }
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #d7d7d7;
+  margin: 0; }
+  footer h1 {
+    padding-top: 1vw;
+    padding-left: 32vw;
+    margin: 0;
+    width: 384px;
+    height: 14px;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666; }
 
 .container {
   display: grid;
@@ -584,7 +646,9 @@ nav a {
   grid-area: image1;
   width: 340px;
   height: 330px;
-  background-color: #666666;
+  background-image: url(../images/drake-streetwear-season-1-beige-grey-green.jpg);
+  background-size: cover;
+  background-position: center;
   margin: 8vw 5vw;
   position: absolute; }
 
@@ -593,6 +657,9 @@ nav a {
   width: 340px;
   height: 330px;
   background-color: #666666;
+  background-image: url(../images/fashion-2-piece-set-women-black-crop-top.jpg);
+  background-size: cover;
+  background-position: center;
   margin: 8vw 37vw;
   position: absolute; }
 
@@ -601,6 +668,9 @@ nav a {
   width: 340px;
   height: 330px;
   background-color: #666666;
+  background-image: url(../images/denim-black-jeans.jpg);
+  background-size: contain;
+  background-position: center;
   margin: 8vw 68vw;
   position: absolute; }
 
@@ -632,6 +702,8 @@ nav a {
   width: 505px;
   height: 300px;
   background-color: #666666;
+  background-image: url(../images/Black-Green-korean-hip-hop-fashion-pants-with-zippers-factory-connection-mens-urban-clothing-joggers-fear.jpg);
+  background-size: cover;
   margin: 7vw;
   margin-top: 8vw;
   margin-left: 12vw;
@@ -642,6 +714,8 @@ nav a {
   width: 505px;
   height: 300px;
   background-color: #666666;
+  background-image: url(../images/australian-label-alch-makes-streetwear-from-recycled-packaging-805x427.jpg);
+  background-size: cover;
   margin: 7vw;
   margin-top: 8vw;
   margin-left: -4vw;

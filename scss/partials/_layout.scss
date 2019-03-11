@@ -43,7 +43,10 @@
     grid-area: image1;
     width: 340px;
     height: 330px;
-    background-color: #666666;
+    // background-color: #666666;
+    background-image: url(../images/drake-streetwear-season-1-beige-grey-green.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 8vw 5vw;
     position: absolute;
 }
@@ -53,6 +56,9 @@
     width: 340px;
     height: 330px;
     background-color: #666666;
+    background-image: url(../images/fashion-2-piece-set-women-black-crop-top.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 8vw 37vw;
     position: absolute;
 }
@@ -62,6 +68,9 @@
     width: 340px;
     height: 330px;
     background-color: #666666;
+    background-image: url(../images/denim-black-jeans.jpg);
+    background-size: contain;
+    background-position: center;
     margin: 8vw 68vw;
     position: absolute;
 }
@@ -105,6 +114,9 @@
     width: 505px;
     height: 300px;
     background-color: #666666;
+    background-image: url(../images/Black-Green-korean-hip-hop-fashion-pants-with-zippers-factory-connection-mens-urban-clothing-joggers-fear.jpg);
+    background-size: cover;
+    // background-position: center;
     margin: 7vw;
     margin-top: 8vw;
     margin-left: 12vw;
@@ -116,6 +128,8 @@
     width: 505px;
     height: 300px;
     background-color: #666666;
+    background-image: url(../images/australian-label-alch-makes-streetwear-from-recycled-packaging-805x427.jpg);
+    background-size: cover;
     margin: 7vw;
     margin-top: 8vw;
     margin-left: -4vw;

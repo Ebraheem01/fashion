@@ -88,6 +88,7 @@
   color: #ffffff;
   margin-left: 27vw;
   margin-top: 7vw;
+  text-transform: uppercase;
 }
 
 .intro {
@@ -368,6 +369,9 @@
   width: 530px;
   height: 364px;
   background-color: #666666;
+  background-image: url(../images/street-wear-male-covered-by-smoke.jpeg);
+  background-position: bottom;
+  background-size: cover;
   margin-left: 6vw;
   margin-top: 10vw;
 }
@@ -436,9 +440,12 @@
 // contact section of homepage 
 
 .contactDetails {
+  padding-top: 1vw;
+  padding-left: 10vw;
+
   h1 {
     width: 117px;
-    height: 21px;
+    height: 30px;
     font-family: Dosis;
     font-size: 30px;
     font-weight: 600;
@@ -465,9 +472,12 @@
 } 
 
 .links {
+  margin-top: 3vw;
+  margin-left: -2vw;
+
   h1 {
     width: 46px;
-    height: 12px;
+    height: 30px;
     font-family: "Source Sans Pro";
     font-size: 18px;
     font-weight: bold;
@@ -481,7 +491,7 @@
   }
 
   h2 {
-    height: 11px;
+    height: 33px;
     font-family: "Source Sans Pro";
     font-size: 15px;
     font-weight: normal;
@@ -495,9 +505,12 @@
 }
 
 .shop {
+  margin-top: 3vw;
+  margin-left: -2vw;
+
   h1 {
     width: 45px;
-    height: 12px;
+    height: 30px;
     font-family: "Source Sans Pro";
     font-size: 18px;
     font-weight: bold;
@@ -511,7 +524,7 @@
 
   h2 {
     width: 25px;
-    height: 10px;
+    height: 33px;
     font-family: "Source Sans Pro";
     font-size: 15px;
     font-weight: normal;
@@ -525,9 +538,13 @@
 }
 
 .instagram {
+  margin-top: 3vw;
+  margin-right: 13vw;
+  margin-left: -5vw;
+
   h1 {
     width: 91px;
-    height: 13px;
+    height: 30px;
     font-family: "Source Sans Pro";
     font-size: 18px;
     font-weight: bold;
@@ -540,30 +557,45 @@
   }
 
   .insta1 {
+    background-image: url(../images/instagram-vince-menzani.jpg);
+    background-size: cover;
+    background-position: center;
     width: 80px;
     height: 80px;
     background-color: #ffffff;
   }
 
   .insta2 {
+    background-image: url(../images/instagram.jpg);
+    background-size: cover;
+    background-position: center;
     width: 80px;
     height: 80px;
     background-color: #ffffff;
   }
 
   .insta3 {
+    background-image: url(../images/instagram-Feifei.jpg);
+    background-size: cover;
+    background-position: center;
     width: 80px;
     height: 80px;
     background-color: #ffffff;
   }
 
   .insta4 {
+    background-image: url(../images/instagram-high-streetwear-fashion.jpg);
+    background-size: cover;
+    background-position: center;
     width: 80px;
     height: 80px;
     background-color: #ffffff;
   }
 
   .insta5 {
+    background-image: url(../images/instagram--simple-outfits-casual-outfits.jpg);
+    background-size: cover;
+    background-position: center;
     margin-top: .2vw;
     width: 80px;
     height: 80px;
@@ -571,6 +603,9 @@
   }
 
   .insta6 {
+    background-image: url(../images/--streetwear-clothing-streetwear-fashion.jpg);
+    background-size: cover;
+    background-position: center;
     margin-top: .2vw;
     width: 80px;
     height: 80px;
@@ -578,6 +613,9 @@
   }
 
   .insta7 {
+    background-image: url(../images/instagram-street.jpg);
+    background-size: cover;
+    background-position: center;
     margin-top: .2vw;
     width: 80px;
     height: 80px;
@@ -585,6 +623,9 @@
   }
 
   .insta8 {
+    background-image: url(../images/--street-fashion-men-summer-mens-hipster-fashion-summer.jpg);
+    background-size: cover;
+    background-position: center;
     margin-top: .2vw;
     width: 80px;
     height: 80px;
