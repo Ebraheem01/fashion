@@ -327,7 +327,6 @@
   height: 10px;
   font-family: "Source Sans Pro";
   font-size: 15px;
-  // line-height: 3.2;
   text-align: center;
   color: #ffffff;
   margin-top: 0vw;
@@ -337,6 +336,27 @@
 // end //
 
 // the blog section of the homepage
+
+.ourBlog {
+  position: absolute;
+  margin-left: 39vw;
+  width: 156px;
+  height: 24px;
+  font-family: "Source Sans Pro";
+  font-size: 36px;
+  line-height: 1.33;
+  text-align: center;
+  color: #333333;
+}
+
+.bottomBorder2 {
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
+  margin-left: 43vw;
+  margin-top: 6vw;
+  position: absolute;
+}
 
 .box2 {
   width: 100%;
@@ -350,6 +370,65 @@
   background-color: #666666;
   margin-left: 10vw;
   margin-top: 10vw;
+}
+
+.content {
+  margin-top: 9vw;
+  margin-right: 10vw;
+  width: 339px;
+  height: 23px;
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  // font-weight: 600;
+  line-height: 1.92;
+  text-align: left;
+  color: #333333;
+
+  h5 {
+    margin-bottom: 4vw;
+    margin-top: -3vw;
+    width: 117px;
+    height: 14px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    line-height: 3.2;
+    text-align: left;
+    color: #999999;
+  }
+
+  p {
+    width: 529px;
+    height: 239px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    line-height: 1.67;
+    text-align: left;
+    color: #666666;
+  }
+
+  h6 {
+    margin-top: -5vw;
+    width: 85px;
+    height: 10px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    line-height: 3.2;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #a88d7b;
+  }
+
+  .lnr-arrow-right {
+    position: absolute;
+    margin-top: -3.2vw;
+    margin-left: 7vw;
+    width: 15px;
+    height: 11px;
+    font-size: 15px;
+    line-height: 3.2;
+    text-align: left;
+    color: #a88d7b;
+  }
 }
 
 // end //
