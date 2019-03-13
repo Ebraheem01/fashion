@@ -40,20 +40,22 @@
   margin-left: -6.9vw;
   animation-name: arrow;
   animation-iteration-count: infinite;
-  animation-duration: 1s;
-  transition: 2s; }
+  animation-duration: 1.5s; }
 
 @keyframes arrow {
   from {
     margin-top: 10vw;
-    opacity: .1;
-    transition: 2s; }
+    opacity: .1; }
   to {
     margin-top: 16vw;
-    opacity: 1;
-    transition: 2s; } }
+    opacity: 1; } }
 .aboutIcons {
   color: #666666; }
+
+.icons {
+  margin: 7vw 8vw; }
+  .icons i {
+    padding-right: 1vw; }
 
 .header-container {
   width: 100%;
@@ -693,74 +695,73 @@
   margin-left: 18vw;
   margin-top: -2vw; }
 
-.team h1 {
-  position: absolute;
-  width: 242px;
-  height: 24px;
-  font-family: "Source Sans Pro";
-  font-size: 36px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: center;
-  color: #333333;
-  margin-top: -5.5vw;
-  margin-left: 32vw; }
-.team h2 {
-  position: absolute;
-  width: 156px;
-  height: 19px;
-  font-family: "Source Sans Pro";
-  font-size: 20px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.4;
-  letter-spacing: 1px;
-  text-align: center;
-  color: #333333; }
-.team .borderBottom2 {
-  position: absolute;
-  width: 50px;
-  height: 2px;
-  background-color: #ac907f;
-  margin-left: 39vw;
-  margin-top: -2vw; }
-.team div {
-  width: 270px;
-  height: 305px;
-  background-color: #666666; }
-.team .member1 {
-  margin: 23vw 3.5vw; }
-.team .member2 {
-  margin: 23vw 24.5vw; }
-.team .member3 {
-  margin: 23vw 45.5vw; }
-.team .member4 {
-  margin: 23vw 65.5vw; }
-.team p {
-  position: absolute;
-  width: 105px;
-  height: 11px;
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.47;
-  letter-spacing: normal;
-  text-align: center;
-  color: #999999; }
-.team .director {
-  margin: 26.5vw 5vw; }
-.team .designer {
-  margin: 26.5vw 26vw; }
-.team .photographer {
-  margin: 26.5vw 47vw; }
-.team .artDesigner {
-  margin: 26.5vw 67vw; }
+.team {
+  width: 100%;
+  height: 24rem;
+  background-color: #ffffff; }
+  .team h1 {
+    position: absolute;
+    width: 242px;
+    height: 24px;
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin-top: -5.5vw;
+    margin-left: 41vw; }
+  .team h2 {
+    position: absolute;
+    width: 162px;
+    height: 19px;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #333333;
+    margin: 0 5vw; }
+  .team .borderBottom2 {
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #ac907f;
+    margin-left: 48vw;
+    margin-top: -2vw; }
+  .team div {
+    width: 270px;
+    height: 305px;
+    background-color: #666666;
+    margin: 0 auto; }
+  .team .member1 {
+    text-align: center; }
+  .team .member2 {
+    text-align: center; }
+  .team .member3 {
+    text-align: center; }
+  .team .member4 {
+    text-align: center; }
+  .team p {
+    position: absolute;
+    width: 105px;
+    height: 11px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+    margin: 4vw 7.8vw; }
 
 .whatWeDo .about-image {
   width: 600px;
@@ -962,8 +963,7 @@ footer {
 
 .team {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 102px 8vw; }
+  grid-template-columns: repeat(4, 1fr); }
 
 .whatWeDo {
   margin: 4vw 7vw 10vw;

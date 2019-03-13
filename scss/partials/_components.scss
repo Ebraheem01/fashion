@@ -51,20 +51,17 @@
   margin-left: -6.9vw;
   animation-name: arrow;
   animation-iteration-count: infinite;
-  animation-duration: 1s;
-  transition: 2s;
+  animation-duration: 1.5s;
 }
 
 @keyframes arrow {
   from {
     margin-top: 10vw;
     opacity: .1;
-    transition: 2s;
   }
   to {
     margin-top: 16vw;
     opacity: 1;
-    transition: 2s;
   }
 }
 
@@ -72,4 +69,12 @@
 
 .aboutIcons {
   color: #666666;
+}
+
+.icons {
+  margin: 7vw 8vw;
+
+  i {
+    padding-right: 1vw;
+  }
 }
