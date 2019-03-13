@@ -47,22 +47,24 @@
   text-align: center;
   color: #ffffff;
   position: absolute;
-  margin-top: 18vw;
+  margin-top: 16vw;
   margin-left: -6.9vw;
   animation-name: arrow;
   animation-iteration-count: infinite;
   animation-duration: 1s;
+  transition: 2s;
 }
 
 @keyframes arrow {
   from {
-    margin-top: 18vw;
-    transition: 1s;
+    margin-top: 10vw;
+    opacity: .1;
+    transition: 2s;
   }
-
   to {
-    margin-top: 19vw;
-    transition: 1s;
+    margin-top: 16vw;
+    opacity: 1;
+    transition: 2s;
   }
 }
 
