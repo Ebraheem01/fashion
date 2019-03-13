@@ -128,8 +128,10 @@
 
 // end
 
-.featuredProjects {
-  width: 1900px;
+// styling the featured products section
+
+.featuredProducts {
+  width: 100%;
   height: 704px;
 }
 
@@ -234,7 +236,7 @@
 
 // end //
 
-// second section displaying the new collection
+// styling the second section displaying the new collection for men and women
 
 .newCollection {
   margin-left: 39vw;
@@ -278,7 +280,7 @@
 
 // end //
 
-// third section displaying content //
+// styling third section displaying content within a box //
 
 .box1 {
   width: 100%;
@@ -336,7 +338,7 @@
 
 // end //
 
-// the blog section of the homepage
+// styling the blog section of the homepage
 
 .ourBlog {
   position: absolute;
@@ -437,7 +439,7 @@
 
 // end //
 
-// contact section of homepage 
+// styling the contact section of homepage 
 
 .contactDetails {
   padding-top: 1vw;
@@ -637,6 +639,8 @@
 
 // ABOUT PAGE STYLING
 
+// styling the top bar of my about page
+
 .about-topBar {
   width: 100%;
   height: 53px;
@@ -650,6 +654,10 @@
     color: #999999;
   }
 }
+
+// end //
+
+// styling the nav bar of my about page
 
 .about-nav {
   height: 35px;
@@ -676,6 +684,10 @@
   }
 }
 
+// end //
+
+// styling the header section of my about page
+
 .about-header {
   width: 100%;
   height: 445px;
@@ -686,12 +698,12 @@
     width: 251px;
     height: 35px;  
     font-family: "Source Sans Pro";  
-    font-size: 50px;   
+    font-size: 45px;   
     line-height: 1.2;  
     letter-spacing: 5px;  
     text-align: center;
     color: #ffffff;
-    margin: 12vw 36vw;
+    margin: 12vw 37vw;
     position: absolute;
   }
 
@@ -707,14 +719,19 @@
     letter-spacing: normal;  
     text-align: center;
     color: #cccccc;
-    margin: 17vw 41vw;
+    margin: 17vw 42vw;
     position: absolute;
   }
 }
 
+// end //
+
+// styling the "About Us" section of the about page
+
 .aboutUs {
 
   .paragraphs {
+    margin-top: 2vw;
     width: 524px;
     height: 89px;  
     font-family: "Source Sans Pro";  
@@ -743,7 +760,7 @@
     color: #333333;
   }
 
-  div {
+  .about-image {
     width: 600px;
     height: 490px;
     background-color: #666666;
@@ -751,3 +768,158 @@
   }
 }
 
+.borderBottom {
+  width: 50px;
+  height: 2px;
+  background-color: #ac907f;
+  margin-left: 18vw;
+  margin-top: -2vw;
+}
+
+// end //
+
+// styling the meet the team section
+
+.team {
+
+  h1 {
+    position: absolute;
+    width: 242px;
+    height: 24px;
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin-top: -5.5vw;
+    margin-left: 32vw;
+  }
+
+  h2 {
+    position: absolute;
+    width: 156px;
+    height: 19px;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .borderBottom2 {
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #ac907f;
+    margin-left: 39vw;
+    margin-top: -2vw;
+  }
+
+  div {
+    width: 270px;
+    height: 305px;
+    background-color: #666666;
+  
+  }
+
+  .member1 {
+    margin: 23vw 3.5vw;
+  }
+
+  .member2 {
+    margin: 23vw 24.5vw;
+  }
+
+  .member3 {
+    margin: 23vw 45.5vw;
+  }
+
+  .member4 {
+    margin: 23vw 65.5vw;
+  }
+
+  p {
+    position: absolute;
+    width: 105px;
+    height: 11px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+  }
+
+  .director {
+    margin: 26.5vw 5vw;
+  }
+
+  .designer {
+    margin: 26.5vw 26vw;
+  }
+
+  .photographer {
+    margin: 26.5vw 47vw;
+  }
+
+  .artDesigner {
+    margin: 26.5vw 67vw;
+  }
+
+}
+
+// end //
+
+// styling the "What We Do" section of the about page
+
+.whatWeDo {
+  .about-image {
+    width: 600px;
+    height: 490px;
+    background-color: #666666;
+    margin-top: 3vw;
+  }
+
+  .paragraphs {
+    margin-top: 2vw;
+    width: 524px;
+    height: 89px;  
+    font-family: "Source Sans Pro";  
+    font-size: 15px;  
+    font-weight: normal;  
+    font-style: normal;  
+    font-stretch: normal;  
+    line-height: 1.67;  
+    letter-spacing: normal;  
+    text-align: left;  
+    color: #666666;
+  }
+
+  h1 {
+    margin: 3vw 13vw;
+    width: 196px;
+    height: 24px;  
+    font-family: "Source Sans Pro";  
+    font-size: 36px;  
+    font-weight: normal;  
+    font-style: normal;  
+    font-stretch: normal;  
+    line-height: 0.67;
+    letter-spacing: normal;  
+    text-align: left;  
+    color: #333333;
+  }
+}
+
+// end //

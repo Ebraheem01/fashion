@@ -189,7 +189,7 @@
 }
 
 .aboutUs {
-    margin: 4vw 14vw;
+    margin: 4vw 7vw 10vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "content image";
@@ -202,5 +202,30 @@
     }
     div {
         grid-area: image;
+    }
+}
+
+// meet the team section 
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    margin: 102px 8vw;
+}
+
+.whatWeDo {
+    margin: 4vw 7vw 10vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "content image";
+    grid-gap: 2vw;
+}
+
+.whatWeDo {
+    p {
+        grid-area: image;
+    }
+    div {
+        grid-area: content;
     }
 }
