@@ -298,10 +298,10 @@
 
 .box1 {
   width: 100%;
-  height: 400px;
+  height: 552px;
   opacity: 0.9;
   background-color: #666666;
-  background-image: linear-gradient(#66666688,#66666680), url(../images/street-wear-male.jpg);
+  background-image: linear-gradient(#00000088,#000000da), url(../images/street-wear-male.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -315,8 +315,8 @@
   line-height: 0.5;
   text-align: center;
   color: #ffffff;
-  padding-top: 10vw;
-  padding-left: 15vw;
+  padding-top: 12.4375rem;
+  padding-left: 27.0625rem;
 }
 
 .para2 {
@@ -327,7 +327,7 @@
   line-height: 1.6;
   text-align: center;
   color: #ffffff;
-  padding-left: 10vw;
+  padding-left: 22.0625rem;
 }
 
 .btn2 {
@@ -335,7 +335,7 @@
   height: 40px;
   background-color: #a88d7b;
   border: none;
-  margin-left: 28vw;
+  margin-left: 38.0625rem;
   margin-top: 4vw;
 }
 
@@ -382,12 +382,9 @@
 }
 
 .image6 {
-  width: 530px;
-  height: 364px;
+  width: 585px;
+  height: 405px;
   background-color: #666666;
-  background-image: url(../images/street-wear-male-covered-by-smoke.jpeg);
-  background-position: bottom;
-  background-size: cover;
   margin-left: 6vw;
   margin-top: 10vw;
 }
