@@ -201,3 +201,22 @@
         grid-area: content;
     }
 }
+
+// blog section
+
+main {
+    grid-area: content1;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 4vw 6vw;
+    grid-gap: 2vw;
+}
