@@ -596,6 +596,12 @@
     height: 80px;
     background-color: #ffffff; }
 
+.about-header {
+  background-image: linear-gradient(#00000088, #000000da), url(../images/girl-1209333_640.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
 .about-topBar {
   width: 100%;
   height: 53px;
@@ -686,7 +692,10 @@
   width: 600px;
   height: 490px;
   background-color: #666666;
-  margin-top: 3vw; }
+  margin-top: 3vw;
+  background-image: linear-gradient(#00000088, #000000da), url(../images/adults-black-and-white-casual.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .borderBottom {
   width: 50px;
@@ -763,11 +772,14 @@
     color: #999999;
     margin: 4vw 7.8vw; }
 
-.whatWeDo .about-image {
+.whatWeDo .whatWeDo-image {
   width: 600px;
   height: 490px;
   background-color: #666666;
-  margin-top: 3vw; }
+  margin-top: 3vw;
+  background-image: linear-gradient(#00000088, #000000da), url(../images/bags-black-friday-escalator-1368690.jpg);
+  background-size: cover;
+  background-position: center; }
 .whatWeDo .paragraphs {
   margin-top: 2vw;
   width: 524px;
@@ -833,11 +845,7 @@
   height: 14px;
   font-family: "Source Sans Pro";
   font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 3.2;
-  letter-spacing: normal;
   text-align: left;
   color: #999999; }
 .blog p {
@@ -846,11 +854,7 @@
   height: 65px;
   font-family: "Source Sans Pro";
   font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.67;
-  letter-spacing: normal;
   text-align: left;
   color: #666666; }
 .blog h5 {
@@ -859,10 +863,7 @@
   font-family: "Source Sans Pro";
   font-size: 15px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.67;
-  letter-spacing: normal;
   text-align: left;
   color: #706259; }
 
@@ -1040,13 +1041,13 @@ footer {
   margin: 4vw 7vw 10vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "content image";
+  grid-template-areas: "image content";
   grid-gap: 2vw; }
 
 .whatWeDo p {
-  grid-area: image; }
-.whatWeDo div {
   grid-area: content; }
+.whatWeDo div {
+  grid-area: image; }
 
 main {
   grid-area: content1; }

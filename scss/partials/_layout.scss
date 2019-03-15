@@ -189,16 +189,16 @@
     margin: 4vw 7vw 10vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "content image";
+    grid-template-areas: "image content";
     grid-gap: 2vw;
 }
 
 .whatWeDo {
     p {
-        grid-area: image;
+        grid-area: content;
     }
     div {
-        grid-area: content;
+        grid-area: image;
     }
 }
 

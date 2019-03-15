@@ -655,6 +655,13 @@
 
 // styling the top bar of my about page
 
+.about-header {
+  background-image: linear-gradient(#00000088,#000000da), url(../images/girl-1209333_640.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .about-topBar {
   width: 100%;
   height: 53px;
@@ -779,6 +786,9 @@
     height: 490px;
     background-color: #666666;
     margin-top: 3vw;
+    background-image: linear-gradient(#00000088,#000000da), url(../images/adults-black-and-white-casual.jpg) ;
+    background-size: cover;
+    background-position: center;
   }
 }
 
@@ -888,11 +898,14 @@
 // styling the "What We Do" section of the about page
 
 .whatWeDo {
-  .about-image {
+  .whatWeDo-image {
     width: 600px;
     height: 490px;
     background-color: #666666;
     margin-top: 3vw;
+    background-image: linear-gradient(#00000088,#000000da), url(../images/bags-black-friday-escalator-1368690.jpg);
+    background-size: cover;
+    background-position: center;
   }
 
   .paragraphs {
@@ -974,11 +987,7 @@
     height: 14px;
     font-family: "Source Sans Pro";
     font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 3.2;
-    letter-spacing: normal;
     text-align: left;
     color: $font-color2;
   }
@@ -988,11 +997,7 @@
     height: 65px;
     font-family: "Source Sans Pro";
     font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.67;
-    letter-spacing: normal;
     text-align: left;
     color: #666666;
   }
@@ -1002,10 +1007,7 @@
     font-family: "Source Sans Pro";
     font-size: 15px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.67;
-    letter-spacing: normal;
     text-align: left;
     color: #706259;
   }
