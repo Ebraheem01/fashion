@@ -24,6 +24,7 @@ nav {
     }
 
     a {
+        position: relative;
         font-family: Dosis;
         font-size: 15px;
         letter-spacing: 0.8px;
@@ -33,6 +34,31 @@ nav {
         text-transform: uppercase;      
     }
 
+}
+
+a::after{
+    content: ('');
+    position: absolute;
+    display: block;
+    width: 0;
+    background: $font-color2;
+    left: 49%;
+    height: 0.3vh;
+    transform: translateX(-50%);
+    margin-top: 5px;
+    transition: .2s linear;
+    -webkit-transition: .2s linear;
+}
+   
+a:hover::after{
+width: 100%;
+background: $font-color2;
+}
+
+
+button:hover {
+margin-left: 39rem;
+transition: .3s ease-in-out; 
 }
 
 footer {
