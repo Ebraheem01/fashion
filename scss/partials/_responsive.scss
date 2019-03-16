@@ -1,0 +1,95 @@
+@media only screen and (max-width:1024px) {
+
+    .topBar > div {
+        font-size: 11px;
+
+        .shipping {
+            font-size: 11px;
+        }
+    }
+
+    nav ul {
+        margin-left: 5vw;
+    }
+
+    .heading {
+        font-size: 48px;
+        margin-left: 21vw;
+        margin-top: 9vw;
+    }
+
+    .intro {
+        margin-left: 6vw;
+    }
+
+    .btn {
+        margin-left: 43vw;
+    }
+
+    .downArrow {
+        margin-left: -9vw;
+    }
+
+    .featuredProducts {
+        
+        h2 {
+            margin-left: 34vw;
+        }
+
+        .bottomBorder {
+            margin-left: 47vw;
+            margin-top: -5vw;
+        }
+
+        .products {
+            width: 19.125rem;
+            height: auto;
+            margin-left: 1.5vw;
+        }
+    }
+
+    .products {
+        width: 19.125rem;
+        height: auto;
+        margin-left: 1.5vw;
+    }
+
+    .image4 {
+        margin-left: 6vw;
+    }
+
+    .image4,
+    .image5 {
+        width: 430px;
+        height: 300px;
+        
+    }
+
+    .newCollection {
+        h1 {
+            margin-top: 1vw;
+        }
+    }
+
+    .image6 {
+        margin-left: 3vw;
+
+        img {
+            width: 490px;
+            height: 390px;
+        }
+    }
+
+    .content {
+        margin-left: -6vw;
+    }
+    .content p {
+        width: 441px;
+        height: 239px;
+        font-family: "Source Sans Pro";
+        font-size: 15px;
+        line-height: 1.67;
+        text-align: left;
+        color: #666666;
+    }
+}

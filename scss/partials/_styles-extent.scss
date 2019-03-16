@@ -6,7 +6,7 @@
     width: 100%;
     height: 100vh;
     background-color: #666666;
-    background: linear-gradient(#00000088,#000000da), url(../images/woman-streetwear-crouching.jpg);
+    background: linear-gradient(#3d3d3d88,#3d3d3dda), url(../images/woman-streetwear-crouching.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -148,6 +148,36 @@ h2 {
   position: absolute;
 }
 
+h5 {
+  width: 158px;
+  height: 18px;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin: 0vw 9vw;
+}
+
+h6 {
+  width: 52px;
+  height: 11px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: $font-color2;
+  margin: 1vw 13vw;
+}
+
 .bottomBorder {
   width: 50px;
   height: 2px;
@@ -166,21 +196,33 @@ h2 {
 // styling the second section displaying the new collection for men and women
 
 .new {
-  width: 100%px;
-  height: 32.0625rem;
+  width: 100%;
+  height: 26.0625rem;
   background-color: #ffffff;
 }
 
 .newCollection {
-  margin-left: 39vw;
-  position: absolute;
-  width: 265px;
-  height: 24px;
-  font-family: "Source Sans Pro";
-  font-size: 36px;
-  line-height: 1.33;
-  text-align: center;
-  color: #333333;
+
+  h1 {
+    margin-left: 39vw;
+    position: absolute;
+    width: 265px;
+    height: 24px;
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    line-height: 1.33;
+    text-align: center;
+    color: #333333;
+}
+
+  div {
+    width: 50px;
+    height: 2px;
+    background-color: #a88d7b;
+    margin-left: 47vw;
+    margin-top: 6vw;
+    position: absolute;
+  }
 }
 
 .men {
@@ -303,7 +345,6 @@ h2 {
 .image6 {
   width: 585px;
   height: 405px;
-  background-color: #666666;
   margin-left: 6vw;
   margin-top: 10vw;
 }

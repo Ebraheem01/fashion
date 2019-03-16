@@ -37,14 +37,13 @@
     width: 100%;
     height: 30rem;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
     padding-top: 11rem;
 }
 
 .products {
     width: 23.125rem;
     height: 22.5rem;
-    background-color: #666666;
+    margin-left: 3vw;
     overflow: hidden;
 
     img {
@@ -60,16 +59,14 @@
 .new {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: repeat(4, 1fr);
+    margin-top: 8vw;
+    grid-gap: 1vw;
 }
 
 .image4 {
-    grid-column: 1 / 1;
     width: 505px;
     height: 300px;
-    margin: 7vw;
-    margin-top: 8vw;
-    margin-left: 12vw;
+    margin-left: 10vw;
     margin-bottom: 2vw;
     overflow: hidden;
     
@@ -80,15 +77,8 @@
 }
 
 .image5 {
-    grid-column: 2 / 2;
     width: 505px;
     height: 300px;
-    background-color: #666666;
-    background-image: url(../images/australian-label-alch-makes-streetwear-from-recycled-packaging-805x427.jpg);
-    background-size: cover;
-    margin: 7vw;
-    margin-top: 8vw;
-    margin-left: -4vw;
     margin-bottom: 2vw;
     overflow: hidden;
 

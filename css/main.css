@@ -61,7 +61,7 @@
   width: 100%;
   height: 100vh;
   background-color: #666666;
-  background: linear-gradient(#00000088, #000000da), url(../images/woman-streetwear-crouching.jpg);
+  background: linear-gradient(#3d3d3d88, #3d3d3dda), url(../images/woman-streetwear-crouching.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
@@ -174,6 +174,32 @@
     margin-left: 35vw;
     margin-top: -10vw;
     position: absolute; }
+  .featuredProducts h5 {
+    width: 158px;
+    height: 18px;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin: 0vw 9vw; }
+  .featuredProducts h6 {
+    width: 52px;
+    height: 11px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+    margin: 1vw 13vw; }
   .featuredProducts .bottomBorder {
     width: 50px;
     height: 2px;
@@ -183,11 +209,11 @@
     position: absolute; }
 
 .new {
-  width: 100% px;
-  height: 32.0625rem;
+  width: 100%;
+  height: 26.0625rem;
   background-color: #ffffff; }
 
-.newCollection {
+.newCollection h1 {
   margin-left: 39vw;
   position: absolute;
   width: 265px;
@@ -197,6 +223,13 @@
   line-height: 1.33;
   text-align: center;
   color: #333333; }
+.newCollection div {
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
+  margin-left: 47vw;
+  margin-top: 6vw;
+  position: absolute; }
 
 .men {
   grid-row: 2 / 2;
@@ -300,7 +333,6 @@
 .image6 {
   width: 585px;
   height: 405px;
-  background-color: #666666;
   margin-left: 6vw;
   margin-top: 10vw; }
 
@@ -1033,13 +1065,12 @@ img:hover {
   width: 100%;
   height: 30rem;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
   padding-top: 11rem; }
 
 .products {
   width: 23.125rem;
   height: 22.5rem;
-  background-color: #666666;
+  margin-left: 3vw;
   overflow: hidden; }
   .products img {
     width: 100%;
@@ -1048,15 +1079,13 @@ img:hover {
 .new {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-columns: repeat(4, 1fr); }
+  margin-top: 8vw;
+  grid-gap: 1vw; }
 
 .image4 {
-  grid-column: 1 / 1;
   width: 505px;
   height: 300px;
-  margin: 7vw;
-  margin-top: 8vw;
-  margin-left: 12vw;
+  margin-left: 10vw;
   margin-bottom: 2vw;
   overflow: hidden; }
   .image4 img {
@@ -1064,15 +1093,8 @@ img:hover {
     height: 170%; }
 
 .image5 {
-  grid-column: 2 / 2;
   width: 505px;
   height: 300px;
-  background-color: #666666;
-  background-image: url(../images/australian-label-alch-makes-streetwear-from-recycled-packaging-805x427.jpg);
-  background-size: cover;
-  margin: 7vw;
-  margin-top: 8vw;
-  margin-left: -4vw;
   margin-bottom: 2vw;
   overflow: hidden; }
   .image5 img {
@@ -1193,5 +1215,72 @@ main {
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
+
+@media only screen and (max-width: 1024px) {
+  .topBar > div {
+    font-size: 11px; }
+    .topBar > div .shipping {
+      font-size: 11px; }
+
+  nav ul {
+    margin-left: 5vw; }
+
+  .heading {
+    font-size: 48px;
+    margin-left: 21vw;
+    margin-top: 9vw; }
+
+  .intro {
+    margin-left: 6vw; }
+
+  .btn {
+    margin-left: 43vw; }
+
+  .downArrow {
+    margin-left: -9vw; }
+
+  .featuredProducts h2 {
+    margin-left: 34vw; }
+  .featuredProducts .bottomBorder {
+    margin-left: 47vw;
+    margin-top: -5vw; }
+  .featuredProducts .products {
+    width: 19.125rem;
+    height: auto;
+    margin-left: 1.5vw; }
+
+  .products {
+    width: 19.125rem;
+    height: auto;
+    margin-left: 1.5vw; }
+
+  .image4 {
+    margin-left: 6vw; }
+
+  .image4,
+  .image5 {
+    width: 430px;
+    height: 300px; }
+
+  .newCollection h1 {
+    margin-top: 1vw; }
+
+  .image6 {
+    margin-left: 3vw; }
+    .image6 img {
+      width: 490px;
+      height: 390px; }
+
+  .content {
+    margin-left: -6vw; }
+
+  .content p {
+    width: 441px;
+    height: 239px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    line-height: 1.67;
+    text-align: left;
+    color: #666666; } }
 
 /*# sourceMappingURL=main.css.map */
