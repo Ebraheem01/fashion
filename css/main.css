@@ -1263,24 +1263,58 @@ main {
     height: 300px; }
 
   .newCollection h1 {
-    margin-top: 1vw; }
+    margin-top: 1vw;
+    margin-left: 36vw; }
 
-  .image6 {
+  .box1 .info4 {
+    padding-top: 12.4375rem;
+    padding-left: 15.0625rem; }
+  .box1 .para2 {
+    padding-left: 12rem; }
+  .box1 .btn2 {
+    width: 125px;
+    height: 40px;
+    background-color: #a88d7b;
+    border: none;
+    margin-left: 27.0625rem;
+    margin-top: 4vw; }
+
+  .box2 .ourBlog {
+    margin-left: 42vw; }
+  .box2 .bottomBorder2 {
+    width: 50px;
+    height: 2px;
+    background-color: #a88d7b;
+    margin-left: 47vw;
+    margin-top: 8vw;
+    position: absolute; }
+  .box2 .image6 {
     margin-left: 3vw; }
-    .image6 img {
+    .box2 .image6 img {
       width: 490px;
       height: 390px; }
-
-  .content {
+  .box2 .content {
     margin-left: -6vw; }
-
-  .content p {
+  .box2 .content p {
     width: 441px;
     height: 239px;
     font-family: "Source Sans Pro";
     font-size: 15px;
     line-height: 1.67;
     text-align: left;
-    color: #666666; } }
+    color: #666666; }
+  .box2 .lnr-arrow-right {
+    position: absolute;
+    margin-top: -4.2vw;
+    margin-left: 8vw;
+    width: 15px;
+    height: 11px;
+    font-size: 15px;
+    line-height: 3.2;
+    text-align: left;
+    color: #a88d7b; }
+
+  .contactDetails {
+    padding-right: 3vw; } }
 
 /*# sourceMappingURL=main.css.map */
