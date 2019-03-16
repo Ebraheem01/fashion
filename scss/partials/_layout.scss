@@ -264,3 +264,10 @@ main {
         grid-row: span 1;
     }
 }
+
+// contact section
+
+.contact-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+}

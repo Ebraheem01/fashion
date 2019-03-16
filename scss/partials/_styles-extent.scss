@@ -133,7 +133,7 @@
 .featuredProducts {
   width: 100%;
   height: 10.5rem;
-}
+
 
 h2 {
   width: 313px;
@@ -143,7 +143,8 @@ h2 {
   line-height: 1.33;
   text-align: center;
   color: #333333;
-  margin-left: 39vw;
+  margin-left: 35vw;
+  margin-top: -10vw;
   position: absolute;
 }
 
@@ -151,11 +152,11 @@ h2 {
   width: 50px;
   height: 2px;
   background-color: #a88d7b;
-  margin-left: 48vw;
-  margin-top: 6vw;
+  margin-left: 45vw;
+  margin-top: -6vw;
   position: absolute;
 }
-
+}
 
 
 
@@ -1006,6 +1007,109 @@ h2 {
     margin: 17vw 42vw;
     position: absolute;
   }
+}
+
+.contact-grid {
+  margin: 3vw 7vw;
+
+  div {
+    width: 390px;
+    height: 200px;
+    border: solid 1px #e6e6e6;
+    background-color: #f0f0f0;
+  }
+
+  h2 {
+    width: 158px;
+    height: 18px;
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #333333;
+    margin: 4vw auto;
+  }
+
+  h6 {
+    width: 255px;
+    height: 16px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+    margin: 4vw auto;
+  }
+
+}
+
+form {
+  margin: 1vw 7vw;
+
+  input {
+      width: 570px;
+      height: 50px;
+      border: solid 1px #e6e6e6;
+      background-color: #ffffff;
+      font-family: "Source Sans Pro";
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      text-align: left;
+      color: #888888;
+      padding: 1px;
+    }
+
+    textarea {
+      width: 1145px;
+      height: 150px;
+      border: solid 1px #e6e6e6;
+      background-color: #ffffff;
+      font-family: "Source Sans Pro";
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      text-align: left;
+      color: #888888;
+      padding: 1px;
+    }
+    
+    .btn3 {
+      width: 155px;
+      height: 40px;
+      background-color: #ac907f;
+      border: none;
+
+        h1 {
+          width: 90px;
+          height: 10px;
+          font-family: "Source Sans Pro";
+          font-size: 15px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.4;
+          letter-spacing: 1.5px;
+          text-align: center;
+          color: #ffffff;
+          margin: -1vw 1.5vw;
+          text-transform: uppercase;
+        }
+    }
 }
 
 .masonry-gallery {
