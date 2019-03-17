@@ -139,4 +139,284 @@
     .contactDetails {
         padding-right: 3vw;
     }
+
+    // about page 
+    .about-topBar {
+        .shipping {
+            font-size: 11px;
+        }
+    }
+
+    .aboutUs{ 
+        .paragraphs {
+            margin-top: 2vw;
+            width: 524px;
+            height: 89px;
+            font-family: "Source Sans Pro";
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.67;
+            letter-spacing: normal;
+            text-align: left;
+            color: #666666;
+        }
+
+        .about-image {
+            width: 390px;
+            height: 379px;
+            background-color: #666666;
+            margin-top: 3vw;
+            background-image: linear-gradient(#00000088, #000000da), url(../images/adults-black-and-white-casual.jpg);
+            background-size: contain;
+            background-position: center;
+        }
+
+        .borderBottom {
+            margin-left: 20vw;
+        }
+    }
+
+    .team {
+        div {
+            width: 240px;
+            height: 275px;
+    }
+        .borderBottom2 {
+            position: absolute;
+            width: 50px;
+            height: 2px;
+            background-color: #ac907f;
+            margin-left: 50vw;
+            margin-top: -1vw;
+        }
+    }
+
+    
+    .whatWeDo {
+        .borderBottom {
+            margin-left: 21vw;
+            margin-top: -2vw;
+        }
+
+        .whatWeDo-image {
+            width: 390px;
+            height: 379px;
+            background-size: contain;
+        }
+        .paragraphs {
+            font-size: 14px;
+        }
+    }
+
+    // blog section
+
+    .blog {
+        margin: 4vw 1vw;
+
+        div {
+            width: 300px;
+            height: 225px;
+            background-color: #666666;
+        }
+
+        p {
+            border-top: 1px solid #e6e6e6;
+            width: 312px;
+            height: 65px;
+            font-family: "Source Sans Pro";
+            font-size: 15px;
+            line-height: 1.67;
+            text-align: left;
+            color: #666666;
+        }
+
+        h5 {
+            line-height: 3.67;
+        }
+    }
+
+    // contact page
+
+    .contact-grid {
+        div {
+            width: 300px;
+        }
+    }
+
+    form {
+        textarea {
+            width: 900px;
+        }
+
+        input {
+            width: 434px;
+        }        
+    }
+    
+}
+
+// end // 
+
+@media only screen and (max-width:768px) {
+    .topBar > div {
+        font-size: 10px;
+
+        .shipping {
+            font-size: 10px;
+            letter-spacing: 0.4px;
+        }
+    }
+
+    nav {
+
+        ul {
+            margin-left: 3vw;
+        }
+
+        a {
+            position: relative;
+            font-family: Dosis;
+            font-size: 13px;
+            letter-spacing: 0.8px;
+            text-align: left;
+            color: #ffffff;
+            text-decoration-line: none;
+            text-transform: uppercase;
+        }
+    }
+
+    .heading {
+        font-size: 40px;
+        margin-left: 15vw;
+        margin-top: 10vw;
+    }
+
+    .intro {
+        margin-left: 22vw;
+        width: 500px; 
+    }
+
+    .btn {
+        margin-left: 45vw;
+
+        .btnText {
+            margin-left: 3vw;
+            margin-top: -2vw;
+        }
+    }
+
+    .downArrow {
+        margin-left: -12.5vw;
+    }
+
+    .featuredProducts {
+        display: block;
+        height: 60rem;
+
+        h2 {
+            margin-left: 33vw;
+        }
+
+        .bottomBorder {
+            margin-left: 50vw;
+            margin-top: -3vw;
+        }
+
+        .products {
+            width: 15rem;
+            margin-left: 38.5vw;
+        }
+
+        h5 {
+            margin: 0vw 43vw;
+        }
+
+        h6 {
+            margin: 1vw 50vw 5vw;
+        }
+    }
+
+    .new {
+        display: block;
+        height: 55rem;
+
+    .image4, 
+    .image5 {
+        width: 330px;
+        height: 300px;
+        margin-top: 20vw;
+        margin-left: 32vw;
+    }
+    
+    .men,
+    .women {
+        margin-left: 50vw;
+    }
+
+}
+
+    .newCollection {
+
+        h1 {
+            margin-top: 5vw;
+        }
+
+        div {
+            margin-left: 50vw;
+            margin-top: 12vw;
+        }
+        
+    }
+
+    .box1 {
+        .info4 {
+            padding-top: 12.4375rem;
+            padding-left: 5.0625rem;
+        }
+
+        .para2 {
+            padding-left: 3rem;
+            width: 580px;
+        }
+
+        .btn2 {
+            margin-left: 17.0625rem;
+        }
+    }
+
+    .box2 {
+        display: block;
+        height: 60rem;
+
+        .ourBlog {
+            margin-top: 2vw;
+    }
+
+    .bottomBorder2 {
+        width: 50px;
+        height: 2px;
+        background-color: #a88d7b;
+        margin-left: 49vw;
+        margin-top: 8vw;
+        position: absolute;
+    }
+
+    .image6 {
+        margin-top: 0vw;
+        padding-top: 10vw;
+
+        img {
+            width: 460px;
+            height: 360px;
+            margin-left: 16vw;
+        }
+    }
+
+    .content {
+        margin-left: 19vw;
+        margin-top: 0;
+    }
+}
 }
