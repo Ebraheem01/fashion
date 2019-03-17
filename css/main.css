@@ -1492,6 +1492,126 @@ main {
         margin-left: 16vw; }
     .box2 .content {
       margin-left: 19vw;
-      margin-top: 0; } }
+      margin-top: 0; }
+
+  .contact {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "none";
+    height: 44rem; }
+
+  .contactDetails {
+    padding-top: 5vw;
+    padding-left: 15vw; }
+
+  .links {
+    margin-top: 8vw;
+    margin-left: 5vw; }
+    .links h2 {
+      height: 15px;
+      line-height: 2.6; }
+
+  .shop {
+    margin-top: -18vw;
+    margin-left: 15vw; }
+
+  .instagram {
+    margin-top: -18vw;
+    margin-right: 10vw;
+    margin-left: 2vw; }
+
+  .about-header h1 {
+    margin: 19vw 34vw; }
+  .about-header h3 {
+    margin: 26vw 42vw; }
+
+  .aboutUs {
+    display: block;
+    height: 55rem;
+    margin-left: 20vw; }
+    .aboutUs h1 {
+      margin: 4vw 20vw; }
+    .aboutUs .about-image {
+      width: 390px;
+      height: 379px;
+      background-color: #666666;
+      margin-top: 40vw;
+      margin-left: 5vw; }
+    .aboutUs .borderBottom {
+      margin-left: 30vw; }
+
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+    height: 50rem; }
+    .team h2 {
+      margin: 0 14vw; }
+    .team p {
+      margin: 6vw 17.8vw; }
+    .team h1 {
+      margin-top: -10.5vw;
+      margin-left: 35vw; }
+    .team .borderBottom2 {
+      margin-left: 47vw;
+      margin-top: -3vw; }
+
+  .whatWeDo {
+    display: block;
+    height: 50rem; }
+    .whatWeDo .whatWeDo-image {
+      margin-top: 0vw;
+      margin-left: 18vw; }
+    .whatWeDo .paragraphs {
+      margin-top: 4vw;
+      margin-left: 13vw; }
+    .whatWeDo h1 {
+      margin: 4vw 17vw; }
+    .whatWeDo .borderBottom {
+      margin-left: 27vw; }
+
+  .blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 3vw 12vw;
+    grid-gap: .5vw; }
+    .blog div {
+      width: 270px;
+      height: 200px;
+      background-color: #666666; }
+    .blog h5 {
+      line-height: .67;
+      margin-top: 7vw; }
+    .blog p {
+      width: 260px; }
+
+  .about-topBar {
+    font-size: 7px; }
+    .about-topBar .shipping {
+      font-size: 7px; }
+    .about-topBar .lang-cur {
+      font-size: 7px; }
+
+  .contact-header h1 {
+    margin: 20vw 35vw; }
+  .contact-header h3 {
+    margin: 27vw 44vw; }
+
+  .contact-grid div {
+    width: 230px;
+    height: 150px; }
+  .contact-grid h2 {
+    font-size: 20px; }
+  .contact-grid h6 {
+    font-size: 13px;
+    margin: 4vw -1vw; }
+
+  form input {
+    width: 324px; }
+  form textarea {
+    width: 690px; }
+  form .btn3 {
+    width: 125px;
+    height: 35px; }
+    form .btn3 h1 {
+      line-height: 1; } }
 
 /*# sourceMappingURL=main.css.map */
