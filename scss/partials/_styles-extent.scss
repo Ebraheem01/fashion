@@ -86,8 +86,8 @@
   line-height: 0.96;
   text-align: center;
   color: #ffffff;
-  margin-left: 27vw;
-  margin-top: 7vw;
+  margin-left: 33vw;
+  margin-top: 13vw;
   text-transform: uppercase;
 }
 
@@ -99,7 +99,7 @@
   line-height: 1.67;
   text-align: center;
   color: #e6e6e6;
-  margin-left: 17.5vw;
+  margin-left: 23.5vw;
 }
 
 .btn {
@@ -107,8 +107,8 @@
   height: 40px;
   border-radius: 20px;
   background-color: #a88d7b;
-  margin-left: 44vw;
-  margin-top: 5vw;
+  margin-left: 45vw;
+  margin-top: 4vw;
   border: none;
 }
 
@@ -121,7 +121,7 @@
   letter-spacing: 1.5px;
   text-align: center;
   color: #ffffff;
-  margin-left: 2vw;
+  margin-left: 1.2vw;
   margin-top: -1vw;
   text-transform: uppercase;
 }
@@ -130,10 +130,14 @@
 
 // styling the featured products section
 
+
 .featuredProducts {
   width: 100%;
   height: 10.5rem;
 
+  .alignment {
+    margin: 0 5vw;
+  }
 
 h2 {
   width: 313px;
@@ -143,8 +147,8 @@ h2 {
   line-height: 1.33;
   text-align: center;
   color: #333333;
-  margin-left: 35vw;
-  margin-top: -10vw;
+  margin-left: 39vw;
+  margin-top: 1w;
   position: absolute;
 }
 
@@ -160,7 +164,7 @@ h5 {
   letter-spacing: normal;
   text-align: center;
   color: #333333;
-  margin: 0vw 9vw;
+  margin: 0vw 8vw;
 }
 
 h6 {
@@ -175,15 +179,15 @@ h6 {
   letter-spacing: normal;
   text-align: center;
   color: $font-color2;
-  margin: 1vw 13vw;
+  margin: 1vw 10.5vw;
 }
 
 .bottomBorder {
   width: 50px;
   height: 2px;
   background-color: #a88d7b;
-  margin-left: 45vw;
-  margin-top: -6vw;
+  margin-left: 46vw;
+  margin-top: 4vw;
   position: absolute;
 }
 }
@@ -196,7 +200,7 @@ h6 {
 // styling the second section displaying the new collection for men and women
 
 .new {
-  width: 100%;
+  width: 80%;
   height: 26.0625rem;
   background-color: #ffffff;
 }
@@ -204,7 +208,7 @@ h6 {
 .newCollection {
 
   h1 {
-    margin-left: 39vw;
+    margin-left: 41vw;
     position: absolute;
     width: 265px;
     height: 24px;
@@ -220,7 +224,7 @@ h6 {
     height: 2px;
     background-color: #a88d7b;
     margin-left: 47vw;
-    margin-top: 6vw;
+    margin-top: 5vw;
     position: absolute;
   }
 }
@@ -236,7 +240,7 @@ h6 {
   text-align: center;
   color: #a88d7b;
   margin-top: 0vw;
-  margin-left: 27vw;
+  margin-left: 21vw;
 }
 
 .women {
@@ -317,7 +321,7 @@ h6 {
 
 .ourBlog {
   position: absolute;
-  margin-left: 39vw;
+  margin-left: 45vw;
   width: 156px;
   height: 24px;
   font-family: "Source Sans Pro";
@@ -331,8 +335,8 @@ h6 {
   width: 50px;
   height: 2px;
   background-color: #a88d7b;
-  margin-left: 43vw;
-  margin-top: 6vw;
+  margin-left: 48vw;
+  margin-top: 5vw;
   position: absolute;
 }
 
@@ -345,7 +349,7 @@ h6 {
 .image6 {
   width: 585px;
   height: 405px;
-  margin-left: 6vw;
+  margin-left: 15vw;
   margin-top: 10vw;
 }
 
@@ -363,7 +367,6 @@ h6 {
 
   h5 {
     margin-bottom: 4vw;
-    margin-top: -3vw;
     width: 117px;
     height: 14px;
     font-family: "Source Sans Pro";
@@ -397,7 +400,7 @@ h6 {
 
   .lnr-arrow-right {
     position: absolute;
-    margin-top: -3.2vw;
+    margin-top: -2.2vw;
     margin-left: 7vw;
     width: 15px;
     height: 11px;
@@ -681,7 +684,7 @@ h6 {
     letter-spacing: 5px;  
     text-align: center;
     color: #ffffff;
-    margin: 12vw 37vw;
+    margin: 8vw 43vw;
     position: absolute;
   }
 
@@ -697,7 +700,7 @@ h6 {
     letter-spacing: normal;  
     text-align: center;
     color: #cccccc;
-    margin: 17vw 42vw;
+    margin: 12vw 46.5vw;
     position: absolute;
   }
 }
@@ -709,7 +712,7 @@ h6 {
 .aboutUs {
 
   .paragraphs {
-    margin-top: 2vw;
+    margin-top: 1vw;
     width: 524px;
     height: 89px;  
     font-family: "Source Sans Pro";  
@@ -721,10 +724,11 @@ h6 {
     letter-spacing: normal;  
     text-align: left;  
     color: #666666;
+    margin-left: 6vw;
   }
 
   h1 {
-    margin: 3vw 13vw;
+    margin: 3vw 9vw;
     width: 196px;
     height: 24px;  
     font-family: "Source Sans Pro";  
@@ -753,7 +757,7 @@ h6 {
   width: 50px;
   height: 2px;
   background-color: #ac907f;
-  margin-left: 18vw;
+  margin-left: 12vw;
   margin-top: -2vw;
 }
 
@@ -763,7 +767,7 @@ h6 {
 
 .team {
 
-  width: 100%;
+  width: 75%;
   height: 24rem;
   background-color: #ffffff;
 
@@ -781,7 +785,7 @@ h6 {
     text-align: center;
     color: #333333;
     margin-top: -5.5vw;
-    margin-left: 41vw;
+    margin-left: 31vw;
   }
 
   h2 {
@@ -805,7 +809,7 @@ h6 {
     width: 50px;
     height: 2px;
     background-color: #ac907f;
-    margin-left: 48vw;
+    margin-left: 36vw;
     margin-top: -2vw;
   }
 
@@ -845,7 +849,7 @@ h6 {
     letter-spacing: normal;
     text-align: center;
     color: #999999;
-    margin: 4vw 7.8vw;
+    margin: 3vw 6.2vw;
   }
 }
 
@@ -863,10 +867,12 @@ h6 {
     background-image: linear-gradient(#00000088,#000000da), url(../images/bags-black-friday-escalator-1368690.jpg);
     background-size: cover;
     background-position: center;
+    margin-left: 5vw;
   }
 
   .paragraphs {
     margin-top: 2vw;
+    margin-left: 3vw;
     width: 524px;
     height: 89px;  
     font-family: "Source Sans Pro";  
@@ -881,7 +887,7 @@ h6 {
   }
 
   h1 {
-    margin: 3vw 13vw;
+    margin: 3vw 8vw;
     width: 196px;
     height: 24px;  
     font-family: "Source Sans Pro";  
@@ -991,7 +997,7 @@ h6 {
     letter-spacing: 5px;  
     text-align: center;
     color: #ffffff;
-    margin: 12vw 37vw;
+    margin: 8vw 43vw;
     position: absolute;
   }
 
@@ -1007,7 +1013,7 @@ h6 {
     letter-spacing: normal;  
     text-align: center;
     color: #cccccc;
-    margin: 17vw 42vw;
+    margin: 12vw 46vw;
     position: absolute;
   }
 }
@@ -1029,7 +1035,7 @@ h6 {
     letter-spacing: 5px;  
     text-align: center;
     color: #ffffff;
-    margin: 12vw 37vw;
+    margin: 8vw 43vw;
     position: absolute;
   }
 
@@ -1045,7 +1051,7 @@ h6 {
     letter-spacing: normal;  
     text-align: center;
     color: #cccccc;
-    margin: 17vw 42vw;
+    margin: 12vw 46vw;
     position: absolute;
   }
 }
@@ -1054,7 +1060,7 @@ h6 {
   margin: 3vw 7vw;
 
   div {
-    width: 390px;
+    width: 565px;
     height: 200px;
     border: solid 1px #e6e6e6;
     background-color: #f0f0f0;
@@ -1072,7 +1078,7 @@ h6 {
     letter-spacing: 1.3px;
     text-align: center;
     color: #333333;
-    margin: 4vw auto;
+    margin: 3vw auto;
   }
 
   h6 {
@@ -1087,7 +1093,7 @@ h6 {
     letter-spacing: normal;
     text-align: center;
     color: #666666;
-    margin: 4vw auto;
+    margin: 3vw auto;
   }
 
 }
@@ -1096,7 +1102,7 @@ form {
   margin: 1vw 7vw;
 
   input {
-      width: 570px;
+      width: 810px;
       height: 50px;
       border: solid 1px #e6e6e6;
       background-color: #ffffff;
@@ -1113,7 +1119,7 @@ form {
     }
 
     textarea {
-      width: 1145px;
+      width: 1629px;
       height: 150px;
       border: solid 1px #e6e6e6;
       background-color: #ffffff;
@@ -1143,7 +1149,7 @@ form {
           font-weight: normal;
           font-style: normal;
           font-stretch: normal;
-          line-height: 1.4;
+          line-height: 2.4;
           letter-spacing: 1.5px;
           text-align: center;
           color: #ffffff;

@@ -1,3 +1,139 @@
+@media only screen and (max-width:1440px) {
+
+    nav {
+        ul {
+        margin-left: 13vw;
+    } 
+}
+
+    .heading {
+        margin-left: 28.5vw;
+        margin-top: 12vw;
+    }
+
+    .intro {
+        margin-left: 16.5vw;
+    }
+
+    .btn {
+        margin-left: 43vw;
+
+        .btnText {
+            margin-left: 2vw; 
+        }
+    }
+
+    .downArrow {
+        margin-left: -6vw;
+    }
+
+    .featuredProducts {
+        .bottomBorder {
+            margin-left: 48vw;
+            margin-top: 6vw;        
+        }
+
+        .products {
+            margin-left: 0vw;
+        }
+    }
+
+    .newCollection {
+        div {
+            margin-left: 48vw;
+            margin-top: 6vw;        
+        }
+
+    }
+
+    .new {
+        .image4 {
+            margin-left: 4vw;
+        }
+
+        .men {
+            margin-left: 19vw;
+        }
+
+        .women {
+            margin-left: 15vw;
+        }
+    }
+
+    .box2 {
+        .bottomBorder2 {
+            margin-left: 49vw;
+            margin-top: 6vw;        
+        }
+
+        .image6 {
+            margin-left: 8vw;
+        }
+    }
+
+    .content {
+        .lnr-arrow-right {
+            position: absolute;
+            margin-top: -3vw;
+        }
+    }
+    
+
+    // about page 
+
+    .about-header {
+        h3 {
+            margin: 12vw 47.5vw;
+        }
+    }
+
+    .borderBottom {
+        margin-left: 14vw;
+    }
+
+    .team {
+        grid-gap: 2vw;
+
+    .borderBottom2 {
+        position: absolute;
+        width: 50px;
+        height: 2px;
+        background-color: #ac907f;
+        margin-left: 38vw;
+        margin-top: -2vw;
+    }
+
+    .icons {
+        margin: 7vw 7vw;
+
+            i {
+                padding-right: 0;
+            }
+    }
+}
+
+
+
+// contact page 
+
+    .contact-grid div {
+        width: 425px;
+    }
+
+    form {
+        input {
+            width: 613px;
+        }
+        textarea {
+            width: 1236px;
+        }
+    }
+
+
+}
+   
+    
+
 @media only screen and (max-width:1024px) {
 
     .topBar > div {
@@ -38,7 +174,11 @@
 
         .bottomBorder {
             margin-left: 47vw;
-            margin-top: -5vw;
+            margin-top: 8vw;
+        }
+
+         .alignment {
+            margin: 0 0vw;
         }
 
         .products {
@@ -46,6 +186,12 @@
             height: auto;
             margin-left: 1.5vw;
         }
+
+
+        h6 {
+            margin: 1vw 12.5vw;
+        }
+
     }
 
     .products {
@@ -54,9 +200,13 @@
         margin-left: 1.5vw;
     }
 
-    .image4 {
-        margin-left: 6vw;
-    }
+    .new {
+        margin-left: 8.5vw;
+
+        .image4 {
+            margin-left: 0vw;
+        }
+}
 
     .image4,
     .image5 {

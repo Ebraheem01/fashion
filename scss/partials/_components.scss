@@ -48,7 +48,7 @@
   color: #ffffff;
   position: absolute;
   margin-top: 16vw;
-  margin-left: -6.5vw;
+  margin-left: -4.5vw;
   animation-name: arrow;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
@@ -72,9 +72,26 @@
 }
 
 .icons {
-  margin: 7vw 8vw;
+  margin: 7vw 6vw;
 
   i {
     padding-right: 1vw;
   }
+}
+
+// contact page 
+
+.lnr-clock {
+  margin: 14vw;
+}
+
+.contact-icon {
+  position: absolute;
+  margin: 0 14vw;
+  width: 22px;
+  height: 37px;
+  font-size: 36px;
+  line-height: 0.58;
+  text-align: center;
+  color: #090803;
 }

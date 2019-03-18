@@ -59,6 +59,7 @@
 .new {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 10vw;
     margin-top: 8vw;
     grid-gap: 1vw;
 }
@@ -149,6 +150,8 @@
 .team {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-left: 10vw;
+    grid-gap: 0;
 }
 
 .whatWeDo {
