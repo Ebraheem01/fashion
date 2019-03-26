@@ -1151,9 +1151,6 @@ form {
           height: 10px;
           font-family: "Source Sans Pro";
           font-size: 15px;
-          font-weight: normal;
-          font-style: normal;
-          font-stretch: normal;
           line-height: 2.4;
           letter-spacing: 1.5px;
           text-align: center;
@@ -1175,4 +1172,17 @@ form {
   div {
     overflow: hidden;
   }
+}
+
+// shop page 
+
+.grid-wrapper2 {
+
+    h3 {
+      height: 14px;
+      font-family: "Source Sans Pro";
+      font-size: 15px;
+      line-height: 2.4;
+      color: #666666;
+    }
 }

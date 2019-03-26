@@ -264,3 +264,12 @@ main {
  display: grid;
  grid-template-columns: repeat(3, 1fr);
 }
+
+// shop page
+
+.grid-wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin: 0 auto;
+}
