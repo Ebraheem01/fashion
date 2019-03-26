@@ -272,4 +272,17 @@ main {
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 1vw;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas: "image content";
+    grid-gap: 2vw;
+    margin: 1vw 20.7vw;
+}
+
+.details {
+    grid-area: content;
+    margin-top: 1.5vw;
 }
