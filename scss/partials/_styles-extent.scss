@@ -1215,6 +1215,18 @@ form {
   div {
     overflow: hidden;
   }
+
+  a::after{
+    content: ('');
+    position: absolute;
+    display: none;
+}
+   
+  a:hover::after{
+  display: none;
+  }
+  
+
 }
 
 // shop page

@@ -16,6 +16,7 @@ nav {
     ul {
         height: 93px;
         margin-left: 16vw;
+        position: relative;
     }
 
     li {
@@ -36,7 +37,7 @@ nav {
 
 }
 
-a::after{
+li a::after{
     content: ('');
     position: absolute;
     display: block;
@@ -50,7 +51,7 @@ a::after{
     -webkit-transition: .2s linear;
 }
    
-a:hover::after{
+li a:hover::after{
 width: 100%;
 background: $font-color2;
 }
@@ -85,9 +86,9 @@ footer {
 }
 }
 
-// subtle 
+// subtle zoom 
 
-// img:hover {
-//     transform: scale(1.1);
-//     transition: 1s;
-// }
+img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}

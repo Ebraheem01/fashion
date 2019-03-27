@@ -110,3 +110,23 @@
     }
 }
 
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 1;
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  color: #555555d2;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  font-size: 3vw;
+}
+#back2Top:hover {
+  color: rgba(255, 255, 255, 0.685);
+  transition: 1s;
+}
+
