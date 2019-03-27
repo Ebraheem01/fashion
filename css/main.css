@@ -71,13 +71,28 @@
 
 .contact-icon {
   position: absolute;
-  margin: 0.5vw 14vw;
+  margin: 0.5vw 9vw;
   width: 22px;
   height: 37px;
   font-size: 36px;
   line-height: 0.58;
   text-align: center;
   color: #090803;
+}
+
+.share {
+  position: absolute;
+  margin-top: -1.7vw;
+  margin-left: 3vw;
+  width: 107px;
+  height: 14px;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  color: #666666;
+}
+.share i {
+  padding-right: 0.5vw;
 }
 
 .header-container {
@@ -866,6 +881,44 @@
   color: #333333;
 }
 
+.blog-header {
+  width: 100%;
+  height: 445px;
+  background-color: #666666;
+  margin-top: 2vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.685)), url(../images/blog-2355684_640.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.blog-header h1 {
+  width: 251px;
+  height: 35px;
+  font-family: "Source Sans Pro";
+  font-size: 45px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #ffffff;
+  margin: 8vw 43vw;
+  position: absolute;
+}
+.blog-header h3 {
+  width: 119px;
+  height: 13px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #cccccc;
+  margin: 12vw 47.5vw;
+  position: absolute;
+}
+
 .grid-wrapper {
   border-bottom: 1px solid #e6e6e6;
   margin: 0 10vw;
@@ -888,7 +941,6 @@
 .blog div {
   width: 370px;
   height: 225px;
-  background-color: #666666;
 }
 .blog h2 {
   width: 210px;
@@ -915,7 +967,7 @@
 .blog p {
   border-top: 1px solid #e6e6e6;
   width: 340px;
-  height: 65px;
+  height: 120px;
   font-family: "Source Sans Pro";
   font-size: 15px;
   line-height: 1.67;
@@ -931,6 +983,10 @@
   line-height: 1.67;
   text-align: left;
   color: #706259;
+}
+.blog img {
+  width: 370px;
+  height: 225px;
 }
 
 .lookbook-header {
@@ -1009,10 +1065,10 @@
 }
 
 .contact-grid {
-  margin: 3vw 7vw;
+  margin: 3vw 19vw;
 }
 .contact-grid div {
-  width: 565px;
+  width: 390px;
   height: 200px;
   border: solid 1px #e6e6e6;
   background-color: #f0f0f0;
@@ -1029,7 +1085,7 @@
   letter-spacing: 1.3px;
   text-align: center;
   color: #333333;
-  margin: 3vw auto;
+  margin: 4vw auto 2vw;
 }
 .contact-grid h6 {
   width: 255px;
@@ -1043,14 +1099,14 @@
   letter-spacing: normal;
   text-align: center;
   color: #666666;
-  margin: 3vw auto;
+  margin: 1vw auto 5.3vw;
 }
 
 form {
-  margin: 1vw 7vw;
+  margin: 1vw 19vw;
 }
 form input {
-  width: 810px;
+  width: 580px;
   height: 50px;
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
@@ -1066,7 +1122,7 @@ form input {
   padding: 1px;
 }
 form textarea {
-  width: 1629px;
+  width: 1170px;
   height: 150px;
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
@@ -1106,6 +1162,44 @@ form .btn3 h1 {
 }
 .masonry-gallery div {
   overflow: hidden;
+}
+
+.shop-header {
+  width: 100%;
+  height: 445px;
+  background-color: #666666;
+  margin-top: 2vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.685)), url(../images/people-2581913_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.shop-header h1 {
+  width: 251px;
+  height: 35px;
+  font-family: "Source Sans Pro";
+  font-size: 45px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #ffffff;
+  margin: 8vw 43vw;
+  position: absolute;
+}
+.shop-header h3 {
+  width: 119px;
+  height: 13px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #cccccc;
+  margin: 12vw 47.5vw;
+  position: absolute;
 }
 
 .grid-wrapper2 h3 {

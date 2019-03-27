@@ -83,7 +83,7 @@
 
 .contact-icon {
   position: absolute;
-  margin: .5vw 14vw;
+  margin: .5vw 9vw;
   width: 22px;
   height: 37px;
   font-size: 36px;
@@ -91,3 +91,22 @@
   text-align: center;
   color: #090803;
 }
+
+// blog page icons
+
+.share {
+  position: absolute;
+  margin-top: -1.7vw;
+  margin-left: 3vw;
+  width: 107px;
+  height: 14px;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  color: #666666;
+  
+    i {
+      padding-right: .5vw;
+    }
+}
+
