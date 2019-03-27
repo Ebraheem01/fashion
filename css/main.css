@@ -1222,8 +1222,12 @@ form .btn3 h1 {
   background-color: #666666;
   margin: 3vw auto;
 }
+.wrapper div img {
+  width: 300px;
+  height: 300px;
+}
 .wrapper h2 {
-  width: 125px;
+  width: 184px;
   height: 25px;
   font-family: "Source Sans Pro";
   font-size: 25px;
@@ -1234,7 +1238,7 @@ form .btn3 h1 {
 }
 .wrapper .lnr-heart {
   position: absolute;
-  margin: 0.5vw 31vw;
+  margin: -1vw 37.5vw;
 }
 .wrapper h5 {
   width: 64px;
@@ -1266,6 +1270,27 @@ form .btn3 h1 {
   letter-spacing: 1.5px;
   text-align: center;
   color: #ffffff;
+}
+
+.pages ul {
+  margin-left: 75vw;
+  position: absolute;
+  margin-top: -3vw;
+}
+.pages ul li {
+  display: inline;
+}
+.pages ul a {
+  position: relative;
+  text-decoration: none;
+  width: 6px;
+  height: 10px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  line-height: 2;
+  text-align: center;
+  color: black;
+  margin-right: 2vw;
 }
 
 body {
@@ -1342,11 +1367,6 @@ footer h1 {
   letter-spacing: normal;
   text-align: center;
   color: #666666;
-}
-
-img:hover {
-  transform: scale(1.1);
-  transition: 1s;
 }
 
 .container {
