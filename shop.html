@@ -18,9 +18,16 @@
     <link rel="stylesheet" href="https://fontawesome.com/icons/shopping-cart?style=solid">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/times-circle?style=solid">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript" type="text/javascript"></script>
 
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  
     
 
 </head>
@@ -59,7 +66,8 @@
                             <li><a href="blog.html"> Blog </a></li>
                             <li><a href="contact.html"> Contact </a></li>
                             <li class="lookBook"><a href="lookbook.html"> Lookbook </a></li>
-                            <li><i class="fas fa-shopping-cart aboutIcon"></i></li>
+                            <span id="itemCount"></span>
+                            <li><i class="fas fa-shopping-cart aboutIcon openCloseCart" aria-hidden="true"></i></li>
                             <li><span class="lnr lnr-magnifier aboutIcon"></span></li>
                         </ul>
                     </nav>
@@ -68,6 +76,16 @@
                         <h1>Shop</h1>
                             <h3>Home / Shop</h3>
                     </section>
+
+                    <div id="shoppingCart">
+                        <div id="cartItemsContainer">
+                          <h2>Items in your cart</h2>
+                          <i class="fas fa-times-circle openCloseCart" aria-hidden="true"></i>
+                          <div id="cartItems"></div>
+                          <span id="cartTotal"></span>
+                        </div>
+                      </div>
+
                 </header>
 
                 <main>
@@ -76,20 +94,33 @@
                         <h3>Select Order <i class="fas fa-angle-down icons1"></i></span> </h3>
                 </section>
 
-              <article class="shop-bg">  
+              <article class="shop-bg">
                 <section class="wrapper">
                   <div id="image"></div>
                   <article class="details">
                     <h2 id="type"></h2>
                      <span class="lnr lnr-heart"></span>
                       <h5 id="price"></h5>
-                        <p id="info">.</p>
-                        <button> <i class="fas fa-shopping-cart aboutIcon"></i> Add to cart</button>
+                        <p id="info"></p>
+                        <button class="add"> <i class="fas fa-shopping-cart aboutIcon"></i> Add to cart</button>
                         <button>Remove from cart</button>
                     </article>
-                </section>
-
+                  </section>
                 
+                  <!-- <div class="item">
+                      <div class="itemDetails">
+                        <div class="itemImage">
+                          <img src="shop/NYYankees cap.jpg" alt="" />
+                        </div>
+                        <div class="itemText">
+                          <p>Cap</p>
+                          <p class="price-container" id="price">Price: €<span class="price">10</span></p>
+                          <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse porro ut, harum necessitatibus excepturi corrupti eveniet ab aut, ad quo minus. Impedit reiciendis quam quibusdam quas. Deserunt omnis iusto ab.</p>
+                        </div>
+                      </div>
+                      <button class="add">Add to cart</button>
+                    </div> -->
+
                 <section class="wrapper">
                   <div id="image2"></div>
                   <article class="details">
@@ -97,7 +128,7 @@
                     <span class="lnr lnr-heart"></span>
                       <h5 id="price2"></h5>
                         <p id="info2"></p>
-                        <button> <i class="fas fa-shopping-cart aboutIcon"></i>Add to cart</button>
+                        <button  class="add"> <i class="fas fa-shopping-cart aboutIcon"></i>Add to cart</button>
                         <button>Remove from cart</button>
                     </article>
                 </section>
@@ -187,5 +218,6 @@
 
                 <a id="back2Top" title="Back to top" href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
     <script src="js/toTop.js"></script>
+    <script src="js/add2cart.js"></script>
 </body>
 </html>

@@ -89,14 +89,14 @@
   position: fixed;
   bottom: 50px;
   right: 0;
-  color: #555555d2;
+  color: #000000d2;
   text-align: center;
   font-size: 30px;
   text-decoration: none;
-  font-size: 3vw; }
+  font-size: 2vw; }
 
 #back2Top:hover {
-  color: rgba(255, 255, 255, 0.685);
+  color: #ac907f;
   transition: 1s; }
 
 .header-container {
@@ -408,7 +408,7 @@
     text-align: left;
     color: #666666; }
   .content h6 {
-    margin-top: -5vw;
+    margin-top: -3vw;
     width: 85px;
     height: 10px;
     font-family: "Source Sans Pro";
@@ -1119,7 +1119,6 @@ form {
     width: 300px;
     height: 300px; }
 .wrapper h2 {
-  width: 184px;
   height: 25px;
   font-family: "Source Sans Pro";
   font-size: 25px;
@@ -1177,6 +1176,70 @@ form {
     color: black;
     margin-right: 2vw; }
 
+#cart-container {
+  float: right;
+  width: 210px;
+  position: relative; }
+
+#itemCount {
+  position: absolute;
+  display: none;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ac907f;
+  color: white;
+  text-align: center;
+  margin-left: 1vw; }
+
+#shoppingCart {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.6); }
+
+#cartItemsContainer {
+  position: relative;
+  width: 600px;
+  left: 50%;
+  top: 150px;
+  margin-left: -300px;
+  padding: 40px;
+  box-shadow: 0 0 10px black;
+  background: #e9e9e9;
+  overflow: auto; }
+
+#cartItemsContainer i {
+  position: absolute;
+  top: 20px;
+  right: 20px; }
+
+#cartItemsContainer .itemDetails {
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 40px; }
+
+#cartItemsContainer .itemImage {
+  float: left;
+  width: 260px;
+  padding: 0 40px; }
+
+#cartItemsContainer .itemText {
+  float: right;
+  width: 260px;
+  padding: 0 40px; }
+
+#cartItemsContainer .itemText .price-container {
+  margin-top: 0; }
+
+.removeItem {
+  margin-left: 40px; }
+
 body {
   margin: 0 auto; }
 
@@ -1220,7 +1283,7 @@ li a:hover::after {
   background: #999999; }
 
 button:hover {
-  transform: scale(1.1);
+  width: 185px;
   transition: .3s ease-in-out; }
 
 footer {
