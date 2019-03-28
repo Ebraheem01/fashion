@@ -119,14 +119,15 @@
   position: fixed;
   bottom: 50px;
   right: 0;
-  color: #555555d2;
+  color: #000000d2;
   text-align: center;
   font-size: 30px;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 2vw;
 }
+
 #back2Top:hover {
-  color: rgba(255, 255, 255, 0.685);
+  color: $mushroom;
   transition: 1s;
 }
 
