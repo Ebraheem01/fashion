@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <!-- <script src="main.js"></script> -->
 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fontawesome.com/icons/angle-down?style=solid">
     <link rel="stylesheet" href="https://fontawesome.com/icons/facebook-f?style=brands">
@@ -19,9 +21,10 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="https://fontawesome.com/icons/times-circle?style=solid">
-
+      <!--  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript" type="text/javascript"></script>
 
+    <!-- cdn -->
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -67,33 +70,26 @@
                             <li><a href="contact.html"> Contact </a></li>
                             <li class="lookBook"><a href="lookbook.html"> Lookbook </a></li>
                             <span id="itemCount"></span>
-                            <li><i class="fas fa-shopping-cart aboutIcon openCloseCart" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-shopping-cart aboutIcon openCloseCart my-cart-icon" aria-hidden="true"></i></li>
+                            <span class="badge badge-notify my-cart-badge"></span>
                             <li><span class="lnr lnr-magnifier aboutIcon"></span></li>
                         </ul>
                     </nav>
 
                     <section class="shop-header">
                         <h1>Shop</h1>
-                            <h3>Home / Shop</h3>
+                            <h3>
+                             <a href="/index.html"> Home  </a> / Shop</h3>
                     </section>
 
-                    <div id="shoppingCart">
-                        <div id="cartItemsContainer">
-                          <h2>Items in your cart</h2>
-                          <i class="fas fa-times-circle openCloseCart" aria-hidden="true"></i>
-                          <div id="cartItems"></div>
-                          <span id="cartTotal"></span>
-                        </div>
-                      </div>
-
                 </header>
-
+                <!-- shop page -->
                 <main>
                   <section class="grid-wrapper2">
                     <h3>Showing 1-12 of 20 results</h3>
                         <h3>Select Order <i class="fas fa-angle-down icons1"></i></span> </h3>
                 </section>
-
+                <!-- item 1 -->
               <article class="shop-bg">
                 <section class="wrapper">
                   <div id="image"></div>
@@ -102,25 +98,12 @@
                      <span class="lnr lnr-heart"></span>
                       <h5 id="price"></h5>
                         <p id="info"></p>
-                        <button class="add"> <i class="fas fa-shopping-cart aboutIcon"></i> Add to cart</button>
-                        <button>Remove from cart</button>
+                        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="Black Jeans" data-summary="Black Skinny Jeans for women" data-price="250" data-quantity="1" data-image="images/shop/black jeans.jpg">
+                          <i class="fas fa-shopping-cart aboutIcon"></i>
+                          Add to Cart</button>
                     </article>
                   </section>
-                
-                  <!-- <div class="item">
-                      <div class="itemDetails">
-                        <div class="itemImage">
-                          <img src="shop/NYYankees cap.jpg" alt="" />
-                        </div>
-                        <div class="itemText">
-                          <p>Cap</p>
-                          <p class="price-container" id="price">Price: €<span class="price">10</span></p>
-                          <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse porro ut, harum necessitatibus excepturi corrupti eveniet ab aut, ad quo minus. Impedit reiciendis quam quibusdam quas. Deserunt omnis iusto ab.</p>
-                        </div>
-                      </div>
-                      <button class="add">Add to cart</button>
-                    </div> -->
-
+                  <!-- item 2 -->
                 <section class="wrapper">
                   <div id="image2"></div>
                   <article class="details">
@@ -128,11 +111,12 @@
                     <span class="lnr lnr-heart"></span>
                       <h5 id="price2"></h5>
                         <p id="info2"></p>
-                        <button  class="add"> <i class="fas fa-shopping-cart aboutIcon"></i>Add to cart</button>
-                        <button>Remove from cart</button>
+                        <button class="btn btn-danger my-cart-btn" data-id="2" data-name="Engineers Coat" data-summary="Take your denim options to the next level with this striking jacket" data-price="1799" data-quantity="1" data-image="images/shop/engineers coat.jpg"g">
+                          <i class="fas fa-shopping-cart aboutIcon"></i>
+                          Add to Cart</button>
                     </article>
                 </section>
-                
+                <!-- item 3 -->
                 <section class="wrapper">
                   <div id="image3"></div>
                   <article class="details">
@@ -140,12 +124,12 @@
                     <span class="lnr lnr-heart"></span>
                       <h5 id="price3"></h5>
                         <p id="info3"></p>
-                        <button><i class="fas fa-shopping-cart aboutIcon"></i> Add to cart</button>
-                        <button>Remove from cart</button>
+                        <button class="btn btn-danger my-cart-btn" data-id="3" data-name="Military Shacket" data-summary="Is it a shirt or is it a jacket? It’s the best of both. The shacket will be your new favourite layering garment, thanks to its easy fit and practical design in a bold camouflage print." data-price="1299" data-quantity="1" data-image="images/shop/military shacket.jpg">
+                          <i class="fas fa-shopping-cart aboutIcon"></i>
+                          Add to Cart</button>
                     </article>
-                </section> -->
-
-                
+                </section> 
+                <!-- item 4 -->
                 <section class="wrapper">
                   <div id="image4"></div>
                   <article class="details">
@@ -153,22 +137,23 @@
                     <span class="lnr lnr-heart"></span>
                       <h5 id="price4"></h5>
                         <p id="info4"></p>
-                        <button> <i class="fas fa-shopping-cart aboutIcon"></i>Add to cart</button>
-                        <button>Remove from cart</button>
+                        <button class="btn btn-danger my-cart-btn" data-id="4" data-name="NY Yankees Cap" data-summary="Get your hands on this official New York Yankees snapback cap by New Era" data-price="419" data-quantity="1" data-image="images/shop/NYYankees cap.jpg">
+                          <i class="fas fa-shopping-cart aboutIcon"></i>
+                          Add to Cart</button>
                     </article>
                 </section>
-
+                <!-- next pages -->
                 <section class="pages">
                   <ul>
-                    <li><a href="/shop.html">1</a></li>
-                    <li><a href="/shop-2.html">2</a></li>
-                    <li><a href="/shop-3.html">3</a></li>
-                    <li><a href="">4</a></li>
-                    <li><a href="">...</a></li>
-                    <li><a href="">8</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">8</a></li>
                   </ul>
                 </section>
-
+                <!-- contact/footer details -->
                 <section class="contact">
                     <article class="contactDetails">
                         <h1>NateB</h1>
@@ -219,5 +204,10 @@
                 <a id="back2Top" title="Back to top" href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
     <script src="js/toTop.js"></script>
     <script src="js/add2cart.js"></script>
+<!-- js links -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+  <script type='text/javascript' src="js/bootstrap.min.js"></script>
+  <script type='text/javascript' src="js/jquery.mycart.js"></script>
+
 </body>
 </html>
