@@ -1,7 +1,8 @@
 // base styles
 
 body {
-    margin: 0 auto;
+    margin:0;
+    overflow-x: hidden;
 }
 
 .topBar>div {
@@ -69,20 +70,21 @@ footer {
     margin: 0;
 
     h1 {
-        padding-top: 1vw;
-        padding-left: 32vw;
-        margin: 0;
-        width: 384px;
-        height: 14px;
-        font-family: "Source Sans Pro";
-        font-size: 14px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.71;
-        letter-spacing: normal;
-        text-align: center;
-        color: #666666;
+    padding-top: 0vw;
+    padding-left: 41vw;
+    margin: 0;
+    width: 384px;
+    height: 14px;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    display: inline;
+    color: #666666;
 }
 }
 

@@ -102,7 +102,7 @@
   margin-left: 23.5vw;
 }
 
-.btn {
+.btn-1 {
   width: 150px;
   height: 40px;
   border-radius: 20px;
@@ -113,17 +113,16 @@
 }
 
 .btnText {
-  width: 87px;
-  height: 10px;
-  font-family: "Source Sans Pro";
   font-size: 11px;
-  line-height: 3.2;
   letter-spacing: 1.5px;
   text-align: center;
-  color: #ffffff;
-  margin-left: 1.2vw;
-  margin-top: -1vw;
   text-transform: uppercase;
+
+  a{
+    text-decoration-line: none;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+  }
 }
 
 // end
@@ -703,6 +702,14 @@ h6 {
     margin: 12vw 46.5vw;
     position: absolute;
   }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  
 }
 
 // end //
@@ -941,8 +948,16 @@ h6 {
     letter-spacing: normal;  
     text-align: center;
     color: #cccccc;
-    margin: 12vw 47.5vw;
+    margin: 12vw 46vw;
     position: absolute;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
   }
 }
 
@@ -1059,6 +1074,13 @@ h6 {
     margin: 12vw 46vw;
     position: absolute;
   }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
 }
 
 // contact section 
@@ -1101,6 +1123,13 @@ h6 {
     color: #cccccc;
     margin: 12vw 46vw;
     position: absolute;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
   }
 }
 
@@ -1266,8 +1295,16 @@ form {
     letter-spacing: normal;  
     text-align: center;
     color: #cccccc;
-    margin: 12vw 47.5vw;
+    margin: 12vw 46vw;
     position: absolute;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: none;
+    }
   }
 }
 
@@ -1318,7 +1355,7 @@ form {
 
   h5 {
     width: 64px;
-    height: 12px;
+    height: 65px;
     font-family: "Source Sans Pro";
     font-size: 18px;
     font-weight: 600;
@@ -1376,128 +1413,3 @@ form {
   }
 }
 
-#cart-container {
-  float: right;
-  width: 210px;
-  position: relative;
-}
-
-#itemCount {
-  position: absolute;
-  display: none;
-  top: -10px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background:$mushroom;
-  color: white;
-  text-align: center;
-  margin-left: 1vw;
-}
-
-// nav {
-//   margin-bottom: 30px;
-// }
-
-// nav ul {
-//   list-style: none;
-//   overflow: auto;
-//   width: 100%;
-//   background: #444444;
-// }
-
-// nav ul li {
-//   float: left;
-//   padding: 5px 20px;
-// }
-
-// nav ul li a {
-//   color: #fff;
-//   text-decoration: none;
-// }
-
-// nav ul li:hover {
-//   color: #444444;
-//   background: #cccccc;
-// }
-
-// nav ul li:hover a {
-//   color: #444444;
-// }
-
-// img {
-//   width: 100%;
-// }
-
-// .item {
-//   width: 31%;
-//   float: left;
-//   margin: 1%;
-// }
-
-// .itemText p {
-//   margin-bottom: 20px;
-// }
-
-// .price-container {
-//   margin-top: 20px;
-// }
-
-// i:hover {
-//   cursor: pointer;
-// }
-
-#shoppingCart {
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  display: none;
-  position: absolute;
-  z-index: 9999;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-#cartItemsContainer {
-  position: relative;
-  width: 600px;
-  left: 50%;
-  top: 150px;
-  margin-left: -300px;
-  padding: 40px;
-  box-shadow: 0 0 10px black;
-  background: #e9e9e9;
-  overflow: auto;
-}
-
-#cartItemsContainer i {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-#cartItemsContainer .itemDetails {
-  overflow: auto;
-  width: 100%;
-  margin-bottom: 40px;
-}
-
-#cartItemsContainer .itemImage {
-  float: left;
-  width: 260px;
-  padding: 0 40px;
-}
-
-#cartItemsContainer .itemText {
-  float: right;
-  width: 260px;
-  padding: 0 40px;
-}
-
-#cartItemsContainer .itemText .price-container {
-  margin-top: 0;
-}
-
-.removeItem {
-  margin-left: 40px;
-}

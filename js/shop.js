@@ -7,7 +7,7 @@ function Products(type, price, info, img) {
   this.img = img;
 }
 
-var jeans = new Products( "Black Jeans", "R250", "info here", '<img src="images/shop/black jeans.jpg">' );
+var jeans = new Products( "Black Jeans", "R250", "Womens Black Skinny Jeans", '<img src="images/shop/black jeans.jpg">' );
 
 document.getElementById("image").innerHTML = jeans.img;  
 document.getElementById("type").innerHTML = jeans.type;
