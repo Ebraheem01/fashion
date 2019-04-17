@@ -51,7 +51,7 @@
                         <ul>
                             <li><a href=""> <span class="aboutLogo">NateB</span></a></li>
                             <li class="home"><a href="index.html"> Home </a></li>
-                            <li><a href=""> Shop </a></li>
+                            <li><a href="shop.html"> Shop </a></li>
                             <li><a href="about.html"> About </a></li>
                             <li><a href="blog.html"> Blog </a></li>
                             <li><a href="contact.html"> Contact </a></li>
@@ -60,6 +60,32 @@
                             <li><span class="lnr lnr-magnifier aboutIcon"></span></li>
                         </ul>
                     </nav>
+
+                     <!-- my nav bar for mobile screens -->
+
+                    <div class="topnav" id="myTopnav">
+                            <a href="index.html" class="active">Home</a>
+                            <a href="shop.html">Shop</a>
+                            <a href="about.html">About</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="lookbook.html"> Lookbook </a>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                          </div>
+            
+                          <script text="javascript">
+                                function myFunction() {
+                                    var x = document.getElementById("myTopnav");
+                                        if (x.className === "topnav") {
+                                            x.className += " responsive";
+                                        } else {
+                                            x.className = "topnav";
+                                            }
+                                        }
+                          </script>
+            
+                          <!-- end -->
+
                     <!-- contact page -->
                     <section class="contact-header">
                         <h1>Contact Us</h1>
@@ -97,16 +123,16 @@
                     <section>
                         <form>
 
-                            <input type="text" name="name" id="name" placeholder="Your Name">
-                            <input type="email" name="email" id="email" placeholder="Your Email">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
 
                             <p>
-                                <input type="number" name="phone number" id="" placeholder="Phone Number">
-                                <input type="text" name="subject" id="subject" placeholder="Subject">
+                                <input type="text" name="phone number" id="" placeholder="Phone Number" required>
+                                <input type="text" name="subject" id="subject" placeholder="Subject" required>
                             </p>
                             
                             <p>
-                                <textarea name="message" id="" placeholder="Your Messages"></textarea>
+                                <textarea name="message" id="" placeholder="Your Messages" required></textarea>
                             </p>
 
                             <button class="btn3"><h1>Send Email</h1></button>

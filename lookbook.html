@@ -67,6 +67,31 @@
                         </ul>
                     </nav>
 
+                     <!-- my nav bar for mobile screens -->
+
+                    <div class="topnav" id="myTopnav">
+                            <a href="index.html" class="active">Home</a>
+                            <a href="shop.html">Shop</a>
+                            <a href="about.html">About</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="lookbook.html"> Lookbook </a>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                          </div>
+            
+                          <script text="javascript">
+                                function myFunction() {
+                                    var x = document.getElementById("myTopnav");
+                                        if (x.className === "topnav") {
+                                            x.className += " responsive";
+                                        } else {
+                                            x.className = "topnav";
+                                            }
+                                        }
+                          </script>
+            
+                          <!-- end -->
+
                     <section class="lookbook-header">
                         <h1>Look Book</h1>
                             <h3>

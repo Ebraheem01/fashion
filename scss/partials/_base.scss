@@ -2,7 +2,10 @@
 
 body {
     margin:0;
-    overflow-x: hidden;
+}
+
+.container {
+    // overflow-x: hidden;
 }
 
 .topBar>div {
@@ -53,14 +56,14 @@ li a::after{
 }
    
 li a:hover::after{
-width: 100%;
-background: $font-color2;
+    width: 100%;
+    background: $font-color2;
 }
 
 
 button:hover {
-width: 185px;
-transition: .3s ease-in-out; 
+    transition: .3s ease-in-out;
+    cursor: pointer; 
 }
 
 footer {
@@ -87,6 +90,11 @@ footer {
     color: #666666;
 }
 }
+
+// second nav bar for mobile devices
+    .topnav {
+        display: none;
+    }
 
 // subtle zoom 
 

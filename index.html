@@ -66,15 +66,39 @@
                 </ul>
             </nav>
 
+            <!-- my nav bar for mobile screens -->
+
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+                <a href="lookbook.html"> Lookbook </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+
+              <script text="javascript">
+                    function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                            if (x.className === "topnav") {
+                                x.className += " responsive";
+                            } else {
+                                x.className = "topnav";
+                                }
+                            }
+              </script>
+
+              <!-- end -->
 
             <!-- introduction to who we are -->
             <section>
                 <h1 class="heading">Street Wear Fashion</h1>
                     <p class="intro">The joy of dressing is an art. Come and shop for your favorite brands at our store. We offer you the best of quality for the cheapest prices.</p>
 
-                    <button class="btn-1"><h1 class="btnText">
-                       <a href="/lookbook.html"> Look book </a>
-                    </h1></button>
+                    <a href="lookbook.html">
+                        <button class="btn-1"><h1 class="btnText">Lookbook </h1></button>
+                    </a>
 
                     <span class="lnr lnr-chevron-down downArrow"></span>
             </section>
@@ -137,7 +161,9 @@
             <section class="box1">
                 <h1 class="info4">Ruling The Streets!</h1>
                     <p class="para2">Style is knowing who you are, what you want to say, and not giving a damn.</p>
-                <button class="btn2"><h1 class="btnText2">view more</h1></button>
+                <a href="lookbook.html"> 
+                    <button class="btn2"><h1 class="btnText2">view more</h1></button>
+                </a>    
             </section>
             <!-- blog section -->
             <section class="box2">
@@ -148,7 +174,7 @@
                     <h1>Accessories For Men</h1>
                         <h5>March 17, 2019</h5>
                         <p>If you ever had a question about anything related to men's accessories. You are in the right place. In the past, accessories were a luxury that not all men could afford. While those days aren't too far behind , accessories are now more affordable and available to everyone. Too often we think to ourselves wondering if we should wear a tie or not, or whether we should wear a watch or not? How much should my accessories cost? Gentlemen, the days of "I'm not sure" are over. To begin with we are going to clarify what are the different categories of men's accessories.</p> 
-                       <h6>Read More</h6> <span class="lnr lnr-arrow-right"></span>
+                       <a href="blog.html"><h6>Read More</h6> <span class="lnr lnr-arrow-right"></span></a>
                 </article>
             </section>
             <!-- contact/footer section -->

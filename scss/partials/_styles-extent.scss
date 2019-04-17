@@ -138,57 +138,57 @@
     margin: 0 5vw;
   }
 
-h2 {
-  width: 313px;
-  height: 24px;
-  font-family: "Source Sans Pro";
-  font-size: 36px;
-  line-height: 1.33;
-  text-align: center;
-  color: #333333;
-  margin-left: 39vw;
-  margin-top: 1w;
-  position: absolute;
-}
+  h2 {
+    width: 313px;
+    height: 24px;
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    line-height: 1.33;
+    text-align: center;
+    color: #333333;
+    margin-left: 39vw;
+    margin-top: -8vw;
+    position: absolute;
+  }
 
-h5 {
-  width: 158px;
-  height: 18px;
-  font-family: "Source Sans Pro";
-  font-size: 20px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.4;
-  letter-spacing: normal;
-  text-align: center;
-  color: #333333;
-  margin: 0vw 8vw;
-}
+  h5 {
+    width: 158px;
+    height: 18px;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin: 0vw 8vw;
+  }
 
-h6 {
-  width: 52px;
-  height: 11px;
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 3.2;
-  letter-spacing: normal;
-  text-align: center;
-  color: $font-color2;
-  margin: 1vw 10.5vw;
-}
+  h6 {
+    width: 52px;
+    height: 11px;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: $font-color2;
+    margin: 1vw 10.5vw;
+  }
 
-.bottomBorder {
-  width: 50px;
-  height: 2px;
-  background-color: #a88d7b;
-  margin-left: 46vw;
-  margin-top: 4vw;
-  position: absolute;
-}
+  .bottomBorder {
+    width: 50px;
+    height: 3px;
+    background-color: #a88d7b;
+    margin-left: 46vw;
+    margin-top: -5vw;
+    position: absolute;
+  }
 }
 
 
@@ -309,9 +309,10 @@ h6 {
   font-family: "Source Sans Pro";
   font-size: 15px;
   text-align: center;
-  color: #ffffff;
+  color: black;
   margin-top: 0vw;
   margin-left: 2vw;
+  text-transform: uppercase;
 }
 
 // end //
@@ -346,7 +347,7 @@ h6 {
 }
 
 .image6 {
-  width: 585px;
+  width: 100%;
   height: 405px;
   margin-left: 15vw;
   margin-top: 10vw;
@@ -354,8 +355,7 @@ h6 {
 
 .content {
   margin-top: 9vw;
-  margin-right: 20vw;
-  width: 339px;
+  width: 100%;
   height: 23px;
   font-family: "Source Sans Pro";
   font-size: 25px;
@@ -376,6 +376,7 @@ h6 {
   }
 
   p {
+    margin: 0%;
     width: 529px;
     height: 239px;
     font-family: "Source Sans Pro";
@@ -395,6 +396,10 @@ h6 {
     letter-spacing: 1.5px;
     text-align: left;
     color: #a88d7b;
+  }
+
+  a {
+    text-decoration-line: none;
   }
 
   .lnr-arrow-right {
@@ -662,6 +667,10 @@ h6 {
   a {
     color: #666666;
   }
+
+  a:hover{
+    text-decoration-line: none;
+  }
 }
 
 // end //
@@ -750,8 +759,8 @@ h6 {
   }
 
   .about-image {
-    width: 600px;
-    height: 490px;
+    width: 540px;
+    height: 405px;
     background-color: #666666;
     margin-top: 3vw;
     background-image: linear-gradient(#00000088,#000000da), url(../images/adults-black-and-white-casual.jpg) ;
@@ -792,7 +801,7 @@ h6 {
     text-align: center;
     color: #333333;
     margin-top: -5.5vw;
-    margin-left: 31vw;
+    margin-left: 34vw;
   }
 
   h2 {
@@ -816,7 +825,7 @@ h6 {
     width: 50px;
     height: 2px;
     background-color: #ac907f;
-    margin-left: 36vw;
+    margin-left: 40.7vw;
     margin-top: -2vw;
   }
 
@@ -867,8 +876,8 @@ h6 {
 
 .whatWeDo {
   .whatWeDo-image {
-    width: 600px;
-    height: 490px;
+    width: 540px;
+    height: 405px;
     background-color: #666666;
     margin-top: 3vw;
     background-image: linear-gradient(#00000088,#000000da), url(../images/bags-black-friday-escalator-1368690.jpg);
@@ -948,7 +957,7 @@ h6 {
     letter-spacing: normal;  
     text-align: center;
     color: #cccccc;
-    margin: 12vw 46vw;
+    margin: 12vw 47vw;
     position: absolute;
   }
 
@@ -1071,7 +1080,7 @@ h6 {
     letter-spacing: normal;  
     text-align: center;
     color: #cccccc;
-    margin: 12vw 46vw;
+    margin: 12vw 48vw;
     position: absolute;
   }
   a {
@@ -1121,7 +1130,7 @@ h6 {
     letter-spacing: normal;  
     text-align: center;
     color: #cccccc;
-    margin: 12vw 46vw;
+    margin: 12vw 48vw;
     position: absolute;
   }
   a {
@@ -1134,7 +1143,7 @@ h6 {
 }
 
 .contact-grid {
-  margin: 3vw 19vw;
+  margin: 3vw 3vw;
 
   div {
     width: 390px;
@@ -1176,7 +1185,7 @@ h6 {
 }
 
 form {
-  margin: 1vw 19vw;
+  margin: 1vw 3vw;
 
   input {
       width: 580px;
@@ -1196,7 +1205,7 @@ form {
     }
 
     textarea {
-      width: 1170px;
+      width: 1235px;
       height: 150px;
       border: solid 1px #e6e6e6;
       background-color: #ffffff;
@@ -1219,8 +1228,6 @@ form {
       border: none;
 
         h1 {
-          width: 90px;
-          height: 10px;
           font-family: "Source Sans Pro";
           font-size: 15px;
           line-height: 2.4;
@@ -1320,8 +1327,8 @@ form {
 }
 
 .shop-bg {
-  width: 1900px;
-  height: 2166px;
+  width: 100%;
+  height: 225vh;
   background-color: $white;
 }
 
@@ -1365,7 +1372,7 @@ form {
   }
 
   p {
-    width: 805px;
+    width: 465px;
     height: 64px;
     font-family: "Source Sans Pro";
     font-size: 15px;

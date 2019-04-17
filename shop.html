@@ -76,6 +76,31 @@
                         </ul>
                     </nav>
 
+                     <!-- my nav bar for mobile screens -->
+
+                    <div class="topnav" id="myTopnav">
+                        <a href="index.html" class="active">Home</a>
+                        <a href="shop.html">Shop</a>
+                        <a href="about.html">About</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="lookbook.html"> Lookbook </a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                      </div>
+        
+                      <script text="javascript">
+                            function myFunction() {
+                                var x = document.getElementById("myTopnav");
+                                    if (x.className === "topnav") {
+                                        x.className += " responsive";
+                                    } else {
+                                        x.className = "topnav";
+                                        }
+                                    }
+                      </script>
+        
+                      <!-- end -->
+
                     <section class="shop-header">
                         <h1>Shop</h1>
                             <h3>
@@ -142,16 +167,7 @@
                           Add to Cart</button>
                     </article>
                 </section>
-                <!-- next pages -->
-                <section class="pages">
-                  <ul>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">...</a></li>
-                    <li><a href="#">8</a></li>
-                  </ul>
+          
                 </section>
                 <!-- contact/footer details -->
                 <section class="contact">
