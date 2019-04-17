@@ -806,7 +806,6 @@
 
   h2 {
     position: absolute;
-    width: 162px;
     height: 19px;
     font-family: "Source Sans Pro";
     font-size: 20px;
@@ -836,8 +835,29 @@
     margin: 0 auto;
   }
 
+  .team-image1{
+    background-image: url(../images/ebie.jpg);
+    background-size: 100% 100%;
+  }
+
+  .team-image2{
+    background-image: url(../images/justin.jpg);
+    background-size: 100% 100%;
+  }
+
+  .team-image3{
+    background-image: url(../images/tabile\ khume.jpg);
+    background-size: 100% 100%;
+  }
+
+  .team-image4{
+    background-image: url(../images/ismet.jpg);
+    background-size: 100% 100%;
+  }
+
   .member1 {
     text-align: center;
+
   }
 
   .member2 {
@@ -846,7 +866,7 @@
 
   .member3 {
     text-align: center;
-  }
+ }
 
   .member4 {
     text-align: center;

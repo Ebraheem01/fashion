@@ -732,7 +732,6 @@
     margin-left: 34vw; }
   .team h2 {
     position: absolute;
-    width: 162px;
     height: 19px;
     font-family: "Source Sans Pro";
     font-size: 20px;
@@ -756,6 +755,18 @@
     height: 305px;
     background-color: #666666;
     margin: 0 auto; }
+  .team .team-image1 {
+    background-image: url(../images/ebie.jpg);
+    background-size: 100% 100%; }
+  .team .team-image2 {
+    background-image: url(../images/justin.jpg);
+    background-size: 100% 100%; }
+  .team .team-image3 {
+    background-image: url(../images/tabile\ khume.jpg);
+    background-size: 100% 100%; }
+  .team .team-image4 {
+    background-image: url(../images/ismet.jpg);
+    background-size: 100% 100%; }
   .team .member1 {
     text-align: center; }
   .team .member2 {
